@@ -1,0 +1,243 @@
+.forma{
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  place-items: center;
+  margin-top: 100px;
+}
+.Modal {
+    width: 800px;
+    height: 550px;
+    position: relative;
+  }
+  
+  .LoginModal {
+    width: 400px;
+    height: 550px;
+    position: absolute;
+    left: 400px;
+    top: 0px;
+  }
+  
+  .ModalContainer {
+    width: 400px;
+    height: 550px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: white;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius:6px ;
+  }
+  
+  .Icon {
+    width: 8.79px;
+    height: 8.79px;
+    background: rgba(27, 27, 27, 0.90);
+  }
+  
+  .Logo {
+    width: 119.86px;
+    height: 34px;
+    position: absolute;
+    left: 24px;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5.38px;
+  }
+  
+  .Frame {
+    width: 34px;
+    height: 34px;
+    background: #3DCBB1;
+    border-radius: 34px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .LogoText {
+    color: white;
+    font-size: 30.60px;
+    font-weight: 900;
+  }
+  
+  .BrandName {
+    color: black;
+    font-size: 14.06px;
+    font-weight: 800;
+  }
+  
+  .Content {
+    position: absolute;
+    top: 55px; 
+    left: 24px;
+    width: 352px;
+    color: rgba(27, 27, 27, 0.60);
+  }
+  
+  .WelcomeText {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  
+  .Form {
+    margin-top: 20px;
+  }
+  input[type="email"], input[type="password"] {
+    border: none;
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+  }
+  
+  .InputField {
+    position: relative;
+    margin-bottom: 10px;
+    background-color: #eeeeeeab;
+    cursor: pointer;
+    width: 300px;
+    height: 20px;
+    border-radius: 14px;
+    overflow: hidden;
+    padding: 10px 18px;
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    border-style: none;
+    outline: none;
+  }
+  
+
+
+  .Button {
+    cursor: pointer;
+    width: 352px;
+    height: 20px;
+    border-radius: 14px;
+    overflow: hidden;
+    padding: 10px 18px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+  }
+
+  .OrYouCan {
+    width: 100%;
+    text-align: center;
+    color: #1B1B1B;
+    font-size: 14px;
+    margin-bottom: 10px;
+    align-items: center;
+    
+  }
+  
+  
+  
+  .Primary {
+    background: #3DCBB1;
+    color: white;
+    position: center;
+    align-items: center;
+    width: 300px;
+    
+
+  }
+  
+  .Social {
+    color: white;
+    width: 300px;
+
+  }
+  
+  .Facebook {
+    background: #4267B2;
+  }
+  
+  .Google {
+      background: #ffffff;
+      color: black;
+      border: 1px solid #C4C4C4; 
+      border-radius: 14px; 
+    
+    
+  }
+  
+  .Apple {
+    background: #1B1B1B;
+  }
+  
+  .SignUpSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .NeedAccount {
+    color: rgba(27, 27, 27, 0.60);
+    font-size: 14px;
+  }
+  
+  .SignUpButton {
+    color: #3DCBB1;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 5px;
+  }
+  
+  .Thumbnail {
+    width: 400px;
+    height: 550px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-bottom-left-radius:6px ;
+
+  }
+  
+  .Mask {
+    width: 400px;
+    height: 550px;
+    position: absolute;
+    background: #C4C4C4;
+    border-top-left-radius: 8px;
+    
+  }
+  
+  .Thumbnail img {
+    width: 400px;
+    height: 550px;
+    position: absolute;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+  }
+  
+  .Overlay {
+    width: 400px;
+    height: 102px;
+    position: absolute;
+    left: 0px;
+    top: 448px;
+  }
+  
+  .Gradient {
+    width: 400px;
+    height: 102px;
+    position: absolute;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.39) 0%, rgba(0, 0, 0, 0) 100%);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius:6px ;}
+  
