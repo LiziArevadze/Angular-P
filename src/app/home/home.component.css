@@ -1,0 +1,478 @@
+.NavbarLightLoggedIn {
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+
+.Container {
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.Logo {
+    width: 151.59px;
+    height: 43px;
+    left: 105px;
+    top: 9px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    gap: 6.80px;
+    display: inline-flex;
+}
+
+.Frame44 {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background: #3DCBB1;
+    border-radius: 43px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+
+.Rectangle5399 {
+    width: 33.59px;
+    height: 33.59px;
+    background: #3DCBB1;
+    border-radius: 16.80px;
+}
+
+.M {
+    color: white;
+    font-size: 38.71px;
+    font-family: Gilroy;
+    font-weight: 900;
+    line-height: 50.80px;
+    word-wrap: break-word;
+}
+
+.MycourseIo {
+    color: white;
+    font-size: 17.79px;
+    font-family: Gilroy;
+    font-weight: 800;
+    line-height: 23.34px;
+    word-wrap: break-word;
+}
+
+.Browse {
+    height: 21px;
+    left: 301px;
+    top: 20px;
+    position: absolute;
+}
+
+.Browse .Browse {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
+}
+
+
+.IconNavigationExpandMore24px {
+    width: 9.78px;
+    height: 5.76px;
+    background: white;
+}
+
+.BecomeInstructor {
+    left: 1048px;
+    top: 20px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
+}
+
+.ShoppingCart24px {
+    width: 24px;
+    height: 24px;
+    padding: 2px;
+    left: 1204px;
+    top: 18px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.NotificationsNone24px {
+    width: 24px;
+    height: 24px;
+    padding-left: 4.41px;
+    padding-right: 4.41px;
+    padding-top: 2.25px;
+    padding-bottom: 2.25px;
+    left: 1244px;
+    top: 18px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.MaskGroup {
+    width: 36px;
+    height: 36px;
+    left: 1284px;
+    top: 12px;
+    position: absolute;
+}
+
+.MaskGroup .Container {
+    width: 36px;
+    height: 36px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #C4C4C4;
+    border-radius: 9999px;
+}
+
+.GeneralImageSquare {
+    width: 36px;
+    height: 36px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border-radius: 100px;
+}
+.SearchColoumn {
+    width: 1200px;
+    height: 170px;
+    position: relative;
+  }
+  
+  .SearchColoumn .Container {
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 23px;
+  }
+  
+  .SearchColoumn .Field {
+    width: auto;
+    height: 50px;
+    position: absolute;
+  }
+  
+  .SearchColoumn .Field .Container {
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: rgba(249, 249, 249, 0.90);
+    border-radius: 3px;
+  }
+  
+  .SearchColoumn .Field .Categories,
+  .SearchColoumn .Field .FindCoursesSkillsSoftwareEtc,
+  .SearchColoumn .Field .Topic {
+    left: 16px;
+    top: 13px;
+    position: absolute;
+    color: rgba(27, 27, 27, 0.60);
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+  
+  .SearchColoumn .WhatDoYouWantToLearn {
+    left: 32px;
+    top: 32px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Gilroy;
+    font-weight: 700;
+    line-height: 30px;
+    word-wrap: break-word;
+  }
+  
+  .SearchColoumn .PrimaryLargeEnabled {
+    width: 179px;
+    height: 50px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    left: 989px;
+    top: 78px;
+    position: absolute;
+    background: #3DCBB1;
+    border-radius: 18px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+  }
+  
+  .SearchColoumn .PrimaryLargeEnabled .Text {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+  }
+  
+  .SearchColoumn .PrimaryLargeEnabled .Text .Search {
+    color: white;
+    font-size: 17px;
+    font-family: Gilroy;
+    font-weight: 500;
+    line-height: 26px;
+    word-wrap: break-word;
+    margin-top:10px ;
+  }
+.image{
+    margin-bottom: 30px;
+    bottom: 10px;
+    right: 8px;
+    width: 108%;
+    filter: brightness(50%);
+    position: relative;
+}
+.SearchColoumn{
+    width: 1200px; 
+    height: 170px; 
+    position: center;
+    margin-top: 550px;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    left: 150px;
+}
+.Field{
+    width: 248px;
+    height: 50px; 
+    left: 445px; 
+    top: 78px; 
+    position: absolute;
+}
+.Search{
+    color: white; 
+    font-family: Gilroy;
+    font-weight: 700;
+    line-height: 26px;
+    word-wrap: break-word;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    position: relative;
+    left: 985px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    background: #3DCBB1;
+    color: white;
+    position: center;
+    align-items: center;
+    width: 200px;
+}
+.Field .Container{
+    width: 248px; 
+    height: 50px;
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: rgba(249, 249, 249, 0.90);
+    border-radius: 3px
+}
+.Categories {
+    left: 16px; 
+    top: 13px; 
+    position: absolute; 
+    color: rgba(27, 27, 27, 0.60); 
+    font-size: 16px; 
+    font-family: Gilroy; 
+    font-weight: 400; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+.FindCoursesSkillsSoftwareEtc{
+    left: 16px; 
+    top: 13px; 
+    position: absolute; 
+    color: rgba(27, 27, 27, 0.60); 
+    font-size: 16px; 
+    font-family: Gilroy; 
+    font-weight: 400; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+.Topic{
+    left: 16px; 
+    top: 13px; 
+    position: absolute; 
+    color: rgba(27, 27, 27, 0.60); 
+    font-size: 16px; 
+    font-family: Gilroy; 
+    font-weight: 400; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+.WhatDoYouWantToLearn{
+    left: 32px; 
+    top: 32px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Gilroy; 
+    font-weight: 700; 
+    line-height: 30px; 
+    word-wrap: break-word;
+}
+.BrowseOurTopCourses{
+    margin-top: 50px;
+    color: black; 
+    font-size: 25px; 
+    font-family: Gilroy; 
+    font-weight: 700; 
+    line-height: 25px; 
+    left: 620px;
+    justify-content: center;
+    position: absolute; 
+    font-family: Gilroy; 
+    word-wrap: break-word;
+    
+}
+.LearnSomethingNewEveryday{
+    width: 794px; 
+    left: 330px; 
+    top: 270px; 
+    position: absolute; 
+    text-align: center; 
+    color: white; 
+    font-size: 48px; 
+    font-family: Gilroy; 
+    font-weight: 700; 
+    line-height: 62px; 
+    word-wrap: break-word;
+}
+.BecomeProfessionalsAndReadyToJoinTheWorld{
+    width: 590px; 
+    left: 480px; 
+    top: 344px; 
+    justify-content: center;
+    position: absolute; 
+    color: rgba(249, 249, 249, 0.90); 
+    font-size: 24px; 
+    font-family: Gilroy; 
+    font-weight: 400; 
+    line-height: 36px; 
+    word-wrap: break-word;
+}
+.Tab{
+    width: 467px; 
+    height: 30px; 
+    position: relative;
+}
+.Design {
+    left: 500px; 
+    top: 100px; 
+    position: absolute; 
+    color: black; 
+    font-size: 16px; 
+    font-family: Gilroy; 
+    font-weight: 400; 
+    line-height: 24px; 
+    word-wrap: break-word;
+    display: inline-block;
+    gap: 10px;
+}
+.Photography{
+    left: 900px; 
+    top: 100px; 
+    position: absolute; 
+    color: black; 
+    font-size: 16px; 
+    font-family: Gilroy; 
+    font-weight: 400; 
+    line-height: 24px; 
+    word-wrap: break-word;
+    display: inline-block;
+    gap: 10px;
+}
+.Developer{
+    left: 600px; 
+    top: 100px; 
+    position: absolute; 
+    color: black; 
+    font-size: 16px; 
+    font-family: Gilroy; 
+    font-weight: 400; 
+    line-height: 24px; 
+    word-wrap: break-word;
+    display: inline-block;
+    gap: 10px;
+}
+.Business
+{
+    left: 700px; 
+    top: 100px; 
+    position: absolute; 
+    color: black; 
+    font-size: 16px; 
+    font-family: Gilroy; 
+    font-weight: 400; 
+    line-height: 24px; 
+    word-wrap: break-word;
+    display: inline-block;
+    gap: 10px;
+}
+.Marketing{
+    left: 800px; 
+    top: 100px; 
+    position: absolute; 
+    color: black; 
+    font-size: 16px; 
+    font-family: Gilroy; 
+    font-weight: 400; 
+    line-height: 24px; 
+    word-wrap: break-word;
+    display: inline-block;
+    gap: 10px;
+}
+.Card{
+    width: 1200px; 
+    height: 307px; 
+    background: #1B283F; 
+    border-radius: 12px;
+    margin-top: 600px;
+    left: 150px;
+    position: absolute;
+}
