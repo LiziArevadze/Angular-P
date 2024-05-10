@@ -6,6 +6,7 @@
 
 .Container {
     width: 100%;
+    object-fit: cover;
     height: 60px;
     left: 0px;
     top: 0px;
@@ -63,14 +64,8 @@
     word-wrap: break-word;
 }
 
-.Browse {
-    height: 21px;
-    left: 301px;
-    top: 20px;
-    position: absolute;
-}
 
-.Browse .Browse {
+.Browse {
     left: 0px;
     top: 0px;
     position: absolute;
@@ -80,6 +75,10 @@
     font-weight: 400;
     line-height: 21px;
     word-wrap: break-word;
+    height: 21px;
+    left: 301px;
+    top: 20px;
+    position: absolute;
 }
 
 
@@ -113,7 +112,7 @@
     display: inline-flex;
 }
 
-.NotificationsNone24px {
+.Notifications {
     width: 24px;
     height: 24px;
     padding-left: 4.41px;
@@ -250,13 +249,12 @@
     margin-top:10px ;
   }
 .image{
+    object-fit: fill;
     margin-bottom: 30px;
-    bottom: 10px;
-    right: 8px;
-    width: 108%;
+    width: 100%;
     filter: brightness(50%);
-    position: relative;
 }
+
 .SearchColoumn{
     width: 1200px; 
     height: 170px; 
@@ -467,12 +465,348 @@
     display: inline-block;
     gap: 10px;
 }
-.Card{
-    width: 1200px; 
-    height: 307px; 
-    background: #1B283F; 
-    border-radius: 12px;
-    margin-top: 600px;
-    left: 150px;
+
+  
+  .Footer {
+    width: 100%;
+    height: 302px;
+    position: relative;
+  }
+  
+  .Footer .Container {
+    margin-top: 800px;
+    width: 100%;
+    height: 302px;
+    right: 30px;
     position: absolute;
-}
+    background: #1B1B1B;
+  }
+  
+  .Footer .Logo {
+    width: 151.59px;
+    height: 43px;
+    left: 105px;
+    top: 40px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    gap: 6.80px;
+    display: inline-flex;
+  }
+  
+  .Footer .Logo .Frame44 {
+    width: 43px;
+    height: 43px;
+    position: relative;
+    background: #3DCBB1;
+    border-radius: 43px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+  }
+  
+  .Footer .Logo .Frame44 .Rectangle5399 {
+    width: 33.59px;
+    height: 33.59px;
+    background: #3DCBB1;
+    border-radius: 16.80px;
+  }
+  
+  .Footer .Logo .Frame44 .M {
+    color: white;
+    font-size: 38.71px;
+    font-family: Gilroy;
+    font-weight: 900;
+    line-height: 50.80px;
+    word-wrap: break-word;
+  }
+  
+  .Footer .Logo .MycourseIo {
+    color: white;
+    font-size: 17.79px;
+    font-family: Gilroy;
+    font-weight: 800;
+    line-height: 23.34px;
+    word-wrap: break-word;
+  }
+  
+  .Footer .CopyrightMycourseIo2024AllRightsReserved {
+    left: 120px;
+    top: 257px;
+    position: absolute;
+    color: rgba(249, 249, 249, 0.60);
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
+  }
+  
+  .Footer .WebProgramming {
+    left: 425px;
+    top: 40px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
+  }
+  
+  .Footer .MobileProgramming {
+    left: 425px;
+    top: 77px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
+  }
+  
+  .Footer .JavaBeginner {
+    left: 425px;
+    top: 114px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
+  }
+  
+  .Footer .PhpBeginner {
+    left: 425px;
+    top: 151px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
+  }
+  
+  .Footer .Rectangle5398 {
+    width: 1200px;
+    height: 1px;
+    left: 120px;
+    top: 232px;
+    position: absolute;
+    opacity: 0.08;
+    background: rgba(249, 249, 249, 0.90);
+  }
+  
+  .Footer .SocialInstagram {
+    width: 24px;
+    height: 24px;
+    left: 1248px;
+    top: 256px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+  }
+  
+  .Footer .SocialInstagram .Union {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .Footer .SocialFacebook {
+    width: 24px;
+    height: 24px;
+    padding-left: 6px;
+    padding-right: 6px;
+    left: 1296px;
+    top: 256px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+  }
+  
+  .Footer .SocialFacebook .Vector {
+    width: 12px;
+    height: 24px;
+    background: rgba(249, 249, 249, 0.60);
+  }
+  
+  .Footer .SocialTwitter {
+    width: 24px;
+    height: 24px;
+    padding-top: 2.25px;
+    padding-bottom: 2.25px;
+    left: 1200px;
+    top: 256px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+  }
+  
+  .Footer .SocialTwitter .Vector {
+    width: 24px;
+    height: 19.50px;
+    background: rgba(249, 249, 249, 0.60);
+  }
+  
+  .Footer .AdobeIllustrator {
+    left: 730px;
+    top: 40px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
+  }
+  
+  .Footer .WritingCourse {
+    left: 1035px;
+    top: 40px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
+  }
+  
+  .Footer .AdobePhotoshop {
+    left: 730px;
+    top: 77px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
+  }
+  
+  .Footer .Photography {
+    left: 1035px;
+    top: 77px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
+  }
+  
+  .Footer .DesignLogo {
+    left: 730px;
+    top: 114px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
+  }
+
+  
+  .Footer .VideoMaking {
+    left: 1035px;
+    top: 114px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
+  }
+  
+  .CardPromoSimple {
+    width: 1200px;
+    height: 184px;
+    position: absolute;
+    margin-top: 600px;
+    left: 140px;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+  }
+  
+  .Background {
+    width: 1200px;
+    height: 184px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #2273D1;
+    border-radius: 12px;
+  }
+
+  
+
+  
+  .Subscribe {
+    color: white;
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 700;
+    line-height: 21px;
+    word-wrap: break-word;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 1030px;
+    top: 72px;
+    position: absolute;
+    background: #3DCBB1;
+    border-radius: 3px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+  }
+  
+  .Search1 {
+    width: 243px;
+    height: 41px;
+    left: 771px;
+    top: 72px;
+    position: absolute;
+  }
+  
+  .Container1 {
+    width: 243px;
+    height: 41px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: rgba(249, 249, 249, 0.30);
+    border-radius: 3px;
+  }
+  
+  .EmailAddress {
+    left: 12px;
+    top: 10px;
+    position: absolute;
+    color: rgba(249, 249, 249, 0.60);
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
+  }
