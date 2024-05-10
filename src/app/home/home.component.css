@@ -1,812 +1,1800 @@
-.NavbarLightLoggedIn {
-    width: 100%;
-    height: 60px;
-    position: relative;
-}
-
-.Container {
-    width: 100%;
-    object-fit: cover;
-    height: 60px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
-}
-
-.Logo {
-    width: 151.59px;
-    height: 43px;
-    left: 105px;
-    top: 9px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    gap: 6.80px;
-    display: inline-flex;
-}
-
-.Frame44 {
-    width: 40px;
-    height: 40px;
-    position: relative;
-    background: #3DCBB1;
-    border-radius: 43px;
-    overflow: hidden;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    display: flex;
-}
-
-.Rectangle5399 {
-    width: 33.59px;
-    height: 33.59px;
-    background: #3DCBB1;
-    border-radius: 16.80px;
-}
-
-.M {
-    color: white;
-    font-size: 38.71px;
-    font-family: Gilroy;
-    font-weight: 900;
-    line-height: 50.80px;
-    word-wrap: break-word;
-}
-
-.MycourseIo {
-    color: white;
-    font-size: 17.79px;
-    font-family: Gilroy;
-    font-weight: 800;
-    line-height: 23.34px;
-    word-wrap: break-word;
-}
-
-
-.Browse {
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    color: white;
-    font-size: 16px;
-    font-family: Gilroy;
-    font-weight: 400;
-    line-height: 21px;
-    word-wrap: break-word;
-    height: 21px;
-    left: 301px;
-    top: 20px;
-    position: absolute;
-}
-
-
-.IconNavigationExpandMore24px {
-    width: 9.78px;
-    height: 5.76px;
-    background: white;
-}
-
-.BecomeInstructor {
-    left: 1048px;
-    top: 20px;
-    position: absolute;
-    color: white;
-    font-size: 16px;
-    font-family: Gilroy;
-    font-weight: 400;
-    line-height: 21px;
-    word-wrap: break-word;
-}
-
-.ShoppingCart24px {
-    width: 24px;
-    height: 24px;
-    padding: 2px;
-    left: 1204px;
-    top: 18px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-}
-
-.Notifications {
-    width: 24px;
-    height: 24px;
-    padding-left: 4.41px;
-    padding-right: 4.41px;
-    padding-top: 2.25px;
-    padding-bottom: 2.25px;
-    left: 1244px;
-    top: 18px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-}
-
-.MaskGroup {
-    width: 36px;
-    height: 36px;
-    left: 1284px;
-    top: 12px;
-    position: absolute;
-}
-
-.MaskGroup .Container {
-    width: 36px;
-    height: 36px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    background: #C4C4C4;
-    border-radius: 9999px;
-}
-
-.GeneralImageSquare {
-    width: 36px;
-    height: 36px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    border-radius: 100px;
-}
-.SearchColoumn {
-    width: 1200px;
-    height: 170px;
-    position: relative;
+  .NavbarLightLoggedIn {
+      width: 100%;
+      height: 60px;
+      position: relative;
   }
-  
-  .SearchColoumn .Container {
-    width: 100%;
-    height: 100%;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    background: white;
-    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.05);
-    border-radius: 23px;
-  }
-  
-  .SearchColoumn .Field {
-    width: auto;
-    height: 50px;
-    position: absolute;
-  }
-  
-  .SearchColoumn .Field .Container {
-    width: 100%;
-    height: 100%;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    background: rgba(249, 249, 249, 0.90);
-    border-radius: 3px;
-  }
-  
-  .SearchColoumn .Field .Categories,
-  .SearchColoumn .Field .FindCoursesSkillsSoftwareEtc,
-  .SearchColoumn .Field .Topic {
-    left: 16px;
-    top: 13px;
-    position: absolute;
-    color: rgba(27, 27, 27, 0.60);
-    font-size: 16px;
-    font-family: Gilroy;
-    font-weight: 400;
-    line-height: 24px;
-    word-wrap: break-word;
-  }
-  
-  .SearchColoumn .WhatDoYouWantToLearn {
-    left: 32px;
-    top: 32px;
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-family: Gilroy;
-    font-weight: 700;
-    line-height: 30px;
-    word-wrap: break-word;
-  }
-  
-  .SearchColoumn .PrimaryLargeEnabled {
-    width: 179px;
-    height: 50px;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    left: 989px;
-    top: 78px;
-    position: absolute;
-    background: #3DCBB1;
-    border-radius: 18px;
-    overflow: hidden;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
-    display: inline-flex;
-  }
-  
-  .SearchColoumn .PrimaryLargeEnabled .Text {
-    justify-content: flex-start;
-    align-items: center;
-    gap: 8px;
-    display: inline-flex;
-  }
-  
-  .SearchColoumn .PrimaryLargeEnabled .Text .Search {
-    color: white;
-    font-size: 17px;
-    font-family: Gilroy;
-    font-weight: 500;
-    line-height: 26px;
-    word-wrap: break-word;
-    margin-top:10px ;
-  }
-.image{
-    object-fit: fill;
-    margin-bottom: 30px;
-    width: 100%;
-    filter: brightness(50%);
-}
 
-.SearchColoumn{
-    width: 1200px; 
-    height: 170px; 
-    position: center;
-    margin-top: 550px;
-    justify-content: center;
-    align-items: center;
-    place-items: center;
-    left: 150px;
-}
-.Field{
-    width: 248px;
-    height: 50px; 
-    left: 445px; 
-    top: 78px; 
-    position: absolute;
-}
-.Search{
-    color: white; 
-    font-family: Gilroy;
-    font-weight: 700;
-    line-height: 26px;
-    word-wrap: break-word;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    height: 50px;
-    border-radius: 14px;
-    overflow: hidden;
-    margin-top: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    place-items: center;
-    position: relative;
-    left: 985px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 21px;
-    text-align: center;
-    background: #3DCBB1;
-    color: white;
-    position: center;
-    align-items: center;
-    width: 200px;
-}
-.Field .Container{
-    width: 248px; 
-    height: 50px;
-    left: 0px; 
-    top: 0px; 
-    position: absolute; 
-    background: rgba(249, 249, 249, 0.90);
-    border-radius: 3px
-}
-.Categories {
-    left: 16px; 
-    top: 13px; 
-    position: absolute; 
-    color: rgba(27, 27, 27, 0.60); 
-    font-size: 16px; 
-    font-family: Gilroy; 
-    font-weight: 400; 
-    line-height: 24px; 
-    word-wrap: break-word;
-}
-.FindCoursesSkillsSoftwareEtc{
-    left: 16px; 
-    top: 13px; 
-    position: absolute; 
-    color: rgba(27, 27, 27, 0.60); 
-    font-size: 16px; 
-    font-family: Gilroy; 
-    font-weight: 400; 
-    line-height: 24px; 
-    word-wrap: break-word;
-}
-.Topic{
-    left: 16px; 
-    top: 13px; 
-    position: absolute; 
-    color: rgba(27, 27, 27, 0.60); 
-    font-size: 16px; 
-    font-family: Gilroy; 
-    font-weight: 400; 
-    line-height: 24px; 
-    word-wrap: break-word;
-}
-.WhatDoYouWantToLearn{
-    left: 32px; 
-    top: 32px; 
-    position: absolute; 
-    color: black; 
-    font-size: 20px; 
-    font-family: Gilroy; 
-    font-weight: 700; 
-    line-height: 30px; 
-    word-wrap: break-word;
-}
-.BrowseOurTopCourses{
-    margin-top: 50px;
-    color: black; 
-    font-size: 25px; 
-    font-family: Gilroy; 
-    font-weight: 700; 
-    line-height: 25px; 
-    left: 620px;
-    justify-content: center;
-    position: absolute; 
-    font-family: Gilroy; 
-    word-wrap: break-word;
+  .Container {
+      width: 100%;
+      object-fit: cover;
+      height: 60px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  .Logo {
+      width: 151.59px;
+      height: 43px;
+      left: 105px;
+      top: 9px;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      gap: 6.80px;
+      display: inline-flex;
+  }
+
+  .Frame44 {
+      width: 40px;
+      height: 40px;
+      position: relative;
+      background: #3DCBB1;
+      border-radius: 43px;
+      overflow: hidden;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      display: flex;
+  }
+
+  .Rectangle5399 {
+      width: 33.59px;
+      height: 33.59px;
+      background: #3DCBB1;
+      border-radius: 16.80px;
+  }
+
+  .M {
+      color: white;
+      font-size: 38.71px;
+      font-family: Gilroy;
+      font-weight: 900;
+      line-height: 50.80px;
+      word-wrap: break-word;
+  }
+
+  .MycourseIo {
+      color: white;
+      font-size: 17.79px;
+      font-family: Gilroy;
+      font-weight: 800;
+      line-height: 23.34px;
+      word-wrap: break-word;
+  }
+
+
+  .Browse {
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      color: white;
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 400;
+      line-height: 21px;
+      word-wrap: break-word;
+      height: 21px;
+      left: 301px;
+      top: 20px;
+      position: absolute;
+  }
+
+
+  .IconNavigationExpandMore24px {
+      width: 9.78px;
+      height: 5.76px;
+      background: white;
+  }
+
+  .BecomeInstructor {
+      left: 1048px;
+      top: 20px;
+      position: absolute;
+      color: white;
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 400;
+      line-height: 21px;
+      word-wrap: break-word;
+  }
+
+  .ShoppingCart24px {
+      width: 24px;
+      height: 24px;
+      padding: 2px;
+      left: 1204px;
+      top: 18px;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      display: inline-flex;
+  }
+
+  .Notifications {
+      width: 24px;
+      height: 24px;
+      padding-left: 4.41px;
+      padding-right: 4.41px;
+      padding-top: 2.25px;
+      padding-bottom: 2.25px;
+      left: 1244px;
+      top: 18px;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      display: inline-flex;
+  }
+
+  .MaskGroup {
+      width: 36px;
+      height: 36px;
+      left: 1284px;
+      top: 12px;
+      position: absolute;
+  }
+
+  .MaskGroup .Container {
+      width: 36px;
+      height: 36px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      background: #C4C4C4;
+      border-radius: 9999px;
+  }
+
+  .GeneralImageSquare {
+      width: 36px;
+      height: 36px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      border-radius: 100px;
+  }
+  .SearchColoumn {
+      width: 1200px;
+      height: 170px;
+      position: relative;
+    }
     
-}
-.LearnSomethingNewEveryday{
-    width: 794px; 
-    left: 330px; 
-    top: 270px; 
-    position: absolute; 
-    text-align: center; 
-    color: white; 
-    font-size: 48px; 
-    font-family: Gilroy; 
-    font-weight: 700; 
-    line-height: 62px; 
-    word-wrap: break-word;
-}
-.BecomeProfessionalsAndReadyToJoinTheWorld{
-    width: 590px; 
-    left: 480px; 
-    top: 344px; 
-    justify-content: center;
-    position: absolute; 
-    color: rgba(249, 249, 249, 0.90); 
-    font-size: 24px; 
-    font-family: Gilroy; 
-    font-weight: 400; 
-    line-height: 36px; 
-    word-wrap: break-word;
-}
-.Tab{
-    width: 467px; 
-    height: 30px; 
-    position: relative;
-}
-.Design {
-    left: 500px; 
-    top: 100px; 
-    position: absolute; 
-    color: black; 
-    font-size: 16px; 
-    font-family: Gilroy; 
-    font-weight: 400; 
-    line-height: 24px; 
-    word-wrap: break-word;
-    display: inline-block;
-    gap: 10px;
-}
-.Photography{
-    left: 900px; 
-    top: 100px; 
-    position: absolute; 
-    color: black; 
-    font-size: 16px; 
-    font-family: Gilroy; 
-    font-weight: 400; 
-    line-height: 24px; 
-    word-wrap: break-word;
-    display: inline-block;
-    gap: 10px;
-}
-.Developer{
-    left: 600px; 
-    top: 100px; 
-    position: absolute; 
-    color: black; 
-    font-size: 16px; 
-    font-family: Gilroy; 
-    font-weight: 400; 
-    line-height: 24px; 
-    word-wrap: break-word;
-    display: inline-block;
-    gap: 10px;
-}
-.Business
-{
-    left: 700px; 
-    top: 100px; 
-    position: absolute; 
-    color: black; 
-    font-size: 16px; 
-    font-family: Gilroy; 
-    font-weight: 400; 
-    line-height: 24px; 
-    word-wrap: break-word;
-    display: inline-block;
-    gap: 10px;
-}
-.Marketing{
-    left: 800px; 
-    top: 100px; 
-    position: absolute; 
-    color: black; 
-    font-size: 16px; 
-    font-family: Gilroy; 
-    font-weight: 400; 
-    line-height: 24px; 
-    word-wrap: break-word;
-    display: inline-block;
-    gap: 10px;
-}
-
-  
-  .Footer {
-    width: 100%;
-    height: 302px;
-    position: relative;
-  }
-  
-  .Footer .Container {
-    margin-top: 800px;
-    width: 100%;
-    height: 302px;
-    right: 30px;
-    position: absolute;
-    background: #1B1B1B;
-  }
-  
-  .Footer .Logo {
-    width: 151.59px;
-    height: 43px;
-    left: 105px;
-    top: 40px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    gap: 6.80px;
-    display: inline-flex;
-  }
-  
-  .Footer .Logo .Frame44 {
-    width: 43px;
-    height: 43px;
-    position: relative;
-    background: #3DCBB1;
-    border-radius: 43px;
-    overflow: hidden;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    display: flex;
-  }
-  
-  .Footer .Logo .Frame44 .Rectangle5399 {
-    width: 33.59px;
-    height: 33.59px;
-    background: #3DCBB1;
-    border-radius: 16.80px;
-  }
-  
-  .Footer .Logo .Frame44 .M {
-    color: white;
-    font-size: 38.71px;
-    font-family: Gilroy;
-    font-weight: 900;
-    line-height: 50.80px;
-    word-wrap: break-word;
-  }
-  
-  .Footer .Logo .MycourseIo {
-    color: white;
-    font-size: 17.79px;
-    font-family: Gilroy;
-    font-weight: 800;
-    line-height: 23.34px;
-    word-wrap: break-word;
-  }
-  
-  .Footer .CopyrightMycourseIo2024AllRightsReserved {
-    left: 120px;
-    top: 257px;
-    position: absolute;
-    color: rgba(249, 249, 249, 0.60);
-    font-size: 16px;
-    font-family: Gilroy;
-    font-weight: 400;
-    line-height: 21px;
-    word-wrap: break-word;
-  }
-  
-  .Footer .WebProgramming {
-    left: 425px;
-    top: 40px;
-    position: absolute;
-    color: white;
-    font-size: 16px;
-    font-family: Gilroy;
-    font-weight: 400;
-    line-height: 21px;
-    word-wrap: break-word;
-  }
-  
-  .Footer .MobileProgramming {
-    left: 425px;
-    top: 77px;
-    position: absolute;
-    color: white;
-    font-size: 16px;
-    font-family: Gilroy;
-    font-weight: 400;
-    line-height: 21px;
-    word-wrap: break-word;
-  }
-  
-  .Footer .JavaBeginner {
-    left: 425px;
-    top: 114px;
-    position: absolute;
-    color: white;
-    font-size: 16px;
-    font-family: Gilroy;
-    font-weight: 400;
-    line-height: 21px;
-    word-wrap: break-word;
-  }
-  
-  .Footer .PhpBeginner {
-    left: 425px;
-    top: 151px;
-    position: absolute;
-    color: white;
-    font-size: 16px;
-    font-family: Gilroy;
-    font-weight: 400;
-    line-height: 21px;
-    word-wrap: break-word;
-  }
-  
-  .Footer .Rectangle5398 {
-    width: 1200px;
-    height: 1px;
-    left: 120px;
-    top: 232px;
-    position: absolute;
-    opacity: 0.08;
-    background: rgba(249, 249, 249, 0.90);
-  }
-  
-  .Footer .SocialInstagram {
-    width: 24px;
-    height: 24px;
-    left: 1248px;
-    top: 256px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-  }
-  
-  .Footer .SocialInstagram .Union {
-    width: 24px;
-    height: 24px;
-  }
-  
-  .Footer .SocialFacebook {
-    width: 24px;
-    height: 24px;
-    padding-left: 6px;
-    padding-right: 6px;
-    left: 1296px;
-    top: 256px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-  }
-  
-  .Footer .SocialFacebook .Vector {
-    width: 12px;
-    height: 24px;
-    background: rgba(249, 249, 249, 0.60);
-  }
-  
-  .Footer .SocialTwitter {
-    width: 24px;
-    height: 24px;
-    padding-top: 2.25px;
-    padding-bottom: 2.25px;
-    left: 1200px;
-    top: 256px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-  }
-  
-  .Footer .SocialTwitter .Vector {
-    width: 24px;
-    height: 19.50px;
-    background: rgba(249, 249, 249, 0.60);
-  }
-  
-  .Footer .AdobeIllustrator {
-    left: 730px;
-    top: 40px;
-    position: absolute;
-    color: white;
-    font-size: 16px;
-    font-family: Gilroy;
-    font-weight: 400;
-    line-height: 21px;
-    word-wrap: break-word;
-  }
-  
-  .Footer .WritingCourse {
-    left: 1035px;
-    top: 40px;
-    position: absolute;
-    color: white;
-    font-size: 16px;
-    font-family: Gilroy;
-    font-weight: 400;
-    line-height: 21px;
-    word-wrap: break-word;
-  }
-  
-  .Footer .AdobePhotoshop {
-    left: 730px;
-    top: 77px;
-    position: absolute;
-    color: white;
-    font-size: 16px;
-    font-family: Gilroy;
-    font-weight: 400;
-    line-height: 21px;
-    word-wrap: break-word;
-  }
-  
-  .Footer .Photography {
-    left: 1035px;
-    top: 77px;
-    position: absolute;
-    color: white;
-    font-size: 16px;
-    font-family: Gilroy;
-    font-weight: 400;
-    line-height: 21px;
-    word-wrap: break-word;
-  }
-  
-  .Footer .DesignLogo {
-    left: 730px;
-    top: 114px;
-    position: absolute;
-    color: white;
-    font-size: 16px;
-    font-family: Gilroy;
-    font-weight: 400;
-    line-height: 21px;
-    word-wrap: break-word;
+    .SearchColoumn .Container {
+      width: 100%;
+      height: 100%;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      background: white;
+      box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.05);
+      border-radius: 23px;
+    }
+    
+    .SearchColoumn .Field {
+      width: auto;
+      height: 50px;
+      position: absolute;
+    }
+    
+    .SearchColoumn .Field .Container {
+      width: 100%;
+      height: 100%;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      background: rgba(249, 249, 249, 0.90);
+      border-radius: 3px;
+    }
+    
+    .SearchColoumn .Field .Categories,
+    .SearchColoumn .Field .FindCoursesSkillsSoftwareEtc,
+    .SearchColoumn .Field .Topic {
+      left: 16px;
+      top: 13px;
+      position: absolute;
+      color: rgba(27, 27, 27, 0.60);
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 400;
+      line-height: 24px;
+      word-wrap: break-word;
+    }
+    
+    .SearchColoumn .WhatDoYouWantToLearn {
+      left: 32px;
+      top: 32px;
+      position: absolute;
+      color: black;
+      font-size: 20px;
+      font-family: Gilroy;
+      font-weight: 700;
+      line-height: 30px;
+      word-wrap: break-word;
+    }
+    
+    .SearchColoumn .PrimaryLargeEnabled {
+      width: 179px;
+      height: 50px;
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      left: 989px;
+      top: 78px;
+      position: absolute;
+      background: #3DCBB1;
+      border-radius: 18px;
+      overflow: hidden;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      display: inline-flex;
+    }
+    
+    .SearchColoumn .PrimaryLargeEnabled .Text {
+      justify-content: flex-start;
+      align-items: center;
+      gap: 8px;
+      display: inline-flex;
+    }
+    
+    .SearchColoumn .PrimaryLargeEnabled .Text .Search {
+      color: white;
+      font-size: 17px;
+      font-family: Gilroy;
+      font-weight: 500;
+      line-height: 26px;
+      word-wrap: break-word;
+      margin-top:10px ;
+    }
+  .image{
+      object-fit: fill;
+      margin-bottom: 30px;
+      width: 100%;
+      filter: brightness(50%);
   }
 
-  
-  .Footer .VideoMaking {
-    left: 1035px;
-    top: 114px;
-    position: absolute;
-    color: white;
-    font-size: 16px;
-    font-family: Gilroy;
-    font-weight: 400;
-    line-height: 21px;
-    word-wrap: break-word;
+  .SearchColoumn{
+      width: 1200px; 
+      height: 170px; 
+      position: center;
+      margin-top: 550px;
+      justify-content: center;
+      align-items: center;
+      place-items: center;
+      left: 150px;
   }
-  
-  .CardPromoSimple {
-    width: 1200px;
-    height: 184px;
-    position: absolute;
-    margin-top: 600px;
-    left: 140px;
-    justify-content: center;
-    align-items: center;
-    place-items: center;
+  .Field{
+      width: 248px;
+      height: 50px; 
+      left: 445px; 
+      top: 78px; 
+      position: absolute;
   }
-  
-  .Background {
-    width: 1200px;
-    height: 184px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    background: #2273D1;
-    border-radius: 12px;
+  .Search{
+      color: white; 
+      font-family: Gilroy;
+      font-weight: 700;
+      line-height: 26px;
+      word-wrap: break-word;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      height: 50px;
+      border-radius: 14px;
+      overflow: hidden;
+      margin-top: 75px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      place-items: center;
+      position: relative;
+      left: 985px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 21px;
+      text-align: center;
+      background: #3DCBB1;
+      color: white;
+      position: center;
+      align-items: center;
+      width: 200px;
+  }
+  .Field .Container{
+      width: 248px; 
+      height: 50px;
+      left: 0px; 
+      top: 0px; 
+      position: absolute; 
+      background: rgba(249, 249, 249, 0.90);
+      border-radius: 3px
+  }
+  .Categories {
+      left: 16px; 
+      top: 13px; 
+      position: absolute; 
+      color: rgba(27, 27, 27, 0.60); 
+      font-size: 16px; 
+      font-family: Gilroy; 
+      font-weight: 400; 
+      line-height: 24px; 
+      word-wrap: break-word;
+  }
+  .FindCoursesSkillsSoftwareEtc{
+      left: 16px; 
+      top: 13px; 
+      position: absolute; 
+      color: rgba(27, 27, 27, 0.60); 
+      font-size: 16px; 
+      font-family: Gilroy; 
+      font-weight: 400; 
+      line-height: 24px; 
+      word-wrap: break-word;
+  }
+  .Topic{
+      left: 16px; 
+      top: 13px; 
+      position: absolute; 
+      color: rgba(27, 27, 27, 0.60); 
+      font-size: 16px; 
+      font-family: Gilroy; 
+      font-weight: 400; 
+      line-height: 24px; 
+      word-wrap: break-word;
+  }
+  .WhatDoYouWantToLearn{
+      left: 32px; 
+      top: 32px; 
+      position: absolute; 
+      color: black; 
+      font-size: 20px; 
+      font-family: Gilroy; 
+      font-weight: 700; 
+      line-height: 30px; 
+      word-wrap: break-word;
+  }
+  .BrowseOurTopCourses{
+      margin-top: 50px;
+      color: black; 
+      font-size: 25px; 
+      font-family: Gilroy; 
+      font-weight: 700; 
+      line-height: 25px; 
+      left: 620px;
+      justify-content: center;
+      position: absolute; 
+      font-family: Gilroy; 
+      word-wrap: break-word;
+      
+  }
+  .LearnSomethingNewEveryday{
+      width: 794px; 
+      left: 330px; 
+      top: 270px; 
+      position: absolute; 
+      text-align: center; 
+      color: white; 
+      font-size: 48px; 
+      font-family: Gilroy; 
+      font-weight: 700; 
+      line-height: 62px; 
+      word-wrap: break-word;
+  }
+  .BecomeProfessionalsAndReadyToJoinTheWorld{
+      width: 590px; 
+      left: 480px; 
+      top: 344px; 
+      justify-content: center;
+      position: absolute; 
+      color: rgba(249, 249, 249, 0.90); 
+      font-size: 24px; 
+      font-family: Gilroy; 
+      font-weight: 400; 
+      line-height: 36px; 
+      word-wrap: break-word;
+  }
+  .Tab{
+      width: 467px; 
+      height: 30px; 
+      position: relative;
+  }
+  .Design {
+      left: 500px; 
+      top: 100px; 
+      position: absolute; 
+      color: black; 
+      font-size: 16px; 
+      font-family: Gilroy; 
+      font-weight: 400; 
+      line-height: 24px; 
+      word-wrap: break-word;
+      display: inline-block;
+      gap: 10px;
+  }
+  .Photography{
+      left: 900px; 
+      top: 100px; 
+      position: absolute; 
+      color: black; 
+      font-size: 16px; 
+      font-family: Gilroy; 
+      font-weight: 400; 
+      line-height: 24px; 
+      word-wrap: break-word;
+      display: inline-block;
+      gap: 10px;
+  }
+  .Developer{
+      left: 600px; 
+      top: 100px; 
+      position: absolute; 
+      color: black; 
+      font-size: 16px; 
+      font-family: Gilroy; 
+      font-weight: 400; 
+      line-height: 24px; 
+      word-wrap: break-word;
+      display: inline-block;
+      gap: 10px;
+  }
+  .Business
+  {
+      left: 700px; 
+      top: 100px; 
+      position: absolute; 
+      color: black; 
+      font-size: 16px; 
+      font-family: Gilroy; 
+      font-weight: 400; 
+      line-height: 24px; 
+      word-wrap: break-word;
+      display: inline-block;
+      gap: 10px;
+  }
+  .Marketing{
+      left: 800px; 
+      top: 100px; 
+      position: absolute; 
+      color: black; 
+      font-size: 16px; 
+      font-family: Gilroy; 
+      font-weight: 400; 
+      line-height: 24px; 
+      word-wrap: break-word;
+      display: inline-block;
+      gap: 10px;
   }
 
-  
+    
+    .Footer {
+      width: 100%;
+      height: 302px;
+      position: relative;
+    }
+    
+    .Footer .Container {
+      margin-top: 600px;
+      width: 100%;
+      height: 302px;
+      right: 30px;
+      position: absolute;
+      background: #1B1B1B;
+    }
+    
+    .Footer .Logo {
+      width: 151.59px;
+      height: 43px;
+      left: 105px;
+      top: 40px;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      gap: 6.80px;
+      display: inline-flex;
+    }
+    
+    .Footer .Logo .Frame44 {
+      width: 43px;
+      height: 43px;
+      position: relative;
+      background: #3DCBB1;
+      border-radius: 43px;
+      overflow: hidden;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      display: flex;
+    }
+    
+    .Footer .Logo .Frame44 .Rectangle5399 {
+      width: 33.59px;
+      height: 33.59px;
+      background: #3DCBB1;
+      border-radius: 16.80px;
+    }
+    
+    .Footer .Logo .Frame44 .M {
+      color: white;
+      font-size: 38.71px;
+      font-family: Gilroy;
+      font-weight: 900;
+      line-height: 50.80px;
+      word-wrap: break-word;
+    }
+    
+    .Footer .Logo .MycourseIo {
+      color: white;
+      font-size: 17.79px;
+      font-family: Gilroy;
+      font-weight: 800;
+      line-height: 23.34px;
+      word-wrap: break-word;
+    }
+    
+    .Footer .CopyrightMycourseIo2024AllRightsReserved {
+      left: 120px;
+      top: 257px;
+      position: absolute;
+      color: rgba(249, 249, 249, 0.60);
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 400;
+      line-height: 21px;
+      word-wrap: break-word;
+    }
+    
+    .Footer .WebProgramming {
+      left: 425px;
+      top: 40px;
+      position: absolute;
+      color: white;
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 400;
+      line-height: 21px;
+      word-wrap: break-word;
+    }
+    
+    .Footer .MobileProgramming {
+      left: 425px;
+      top: 77px;
+      position: absolute;
+      color: white;
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 400;
+      line-height: 21px;
+      word-wrap: break-word;
+    }
+    
+    .Footer .JavaBeginner {
+      left: 425px;
+      top: 114px;
+      position: absolute;
+      color: white;
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 400;
+      line-height: 21px;
+      word-wrap: break-word;
+    }
+    
+    .Footer .PhpBeginner {
+      left: 425px;
+      top: 151px;
+      position: absolute;
+      color: white;
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 400;
+      line-height: 21px;
+      word-wrap: break-word;
+    }
+    
+    .Footer .Rectangle5398 {
+      width: 1200px;
+      height: 1px;
+      left: 120px;
+      top: 232px;
+      position: absolute;
+      opacity: 0.08;
+      background: rgba(249, 249, 249, 0.90);
+    }
+    
+    .Footer .SocialInstagram {
+      width: 24px;
+      height: 24px;
+      left: 1248px;
+      top: 256px;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      display: inline-flex;
+    }
+    
+    .Footer .SocialInstagram .Union {
+      width: 24px;
+      height: 24px;
+    }
+    
+    .Footer .SocialFacebook {
+      width: 24px;
+      height: 24px;
+      padding-left: 6px;
+      padding-right: 6px;
+      left: 1296px;
+      top: 256px;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      display: inline-flex;
+    }
+    
+    .Footer .SocialFacebook .Vector {
+      width: 12px;
+      height: 24px;
+      background: rgba(249, 249, 249, 0.60);
+    }
+    
+    .Footer .SocialTwitter {
+      width: 24px;
+      height: 24px;
+      padding-top: 2.25px;
+      padding-bottom: 2.25px;
+      left: 1200px;
+      top: 256px;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      display: inline-flex;
+    }
+    
+    .Footer .SocialTwitter .Vector {
+      width: 24px;
+      height: 19.50px;
+      background: rgba(249, 249, 249, 0.60);
+    }
+    
+    .Footer .AdobeIllustrator {
+      left: 730px;
+      top: 40px;
+      position: absolute;
+      color: white;
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 400;
+      line-height: 21px;
+      word-wrap: break-word;
+    }
+    
+    .Footer .WritingCourse {
+      left: 1035px;
+      top: 40px;
+      position: absolute;
+      color: white;
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 400;
+      line-height: 21px;
+      word-wrap: break-word;
+    }
+    
+    .Footer .AdobePhotoshop {
+      left: 730px;
+      top: 77px;
+      position: absolute;
+      color: white;
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 400;
+      line-height: 21px;
+      word-wrap: break-word;
+    }
+    
+    .Footer .Photography {
+      left: 1035px;
+      top: 77px;
+      position: absolute;
+      color: white;
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 400;
+      line-height: 21px;
+      word-wrap: break-word;
+    }
+    
+    .Footer .DesignLogo {
+      left: 730px;
+      top: 114px;
+      position: absolute;
+      color: white;
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 400;
+      line-height: 21px;
+      word-wrap: break-word;
+    }
 
-  
-  .Subscribe {
-    color: white;
-    font-size: 16px;
-    font-family: Gilroy;
-    font-weight: 700;
-    line-height: 21px;
-    word-wrap: break-word;
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    left: 1030px;
-    top: 72px;
-    position: absolute;
-    background: #3DCBB1;
-    border-radius: 3px;
-    overflow: hidden;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
-    display: inline-flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 8px;
-    display: inline-flex;
-  }
-  
-  .Search1 {
-    width: 243px;
-    height: 41px;
-    left: 771px;
-    top: 72px;
-    position: absolute;
-  }
-  
-  .Container1 {
-    width: 243px;
-    height: 41px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    background: rgba(249, 249, 249, 0.30);
-    border-radius: 3px;
-  }
-  
-  .EmailAddress {
-    left: 12px;
-    top: 10px;
-    position: absolute;
-    color: rgba(249, 249, 249, 0.60);
-    font-size: 16px;
-    font-family: Gilroy;
-    font-weight: 400;
-    line-height: 21px;
-    word-wrap: break-word;
-  }
+    
+    .Footer .VideoMaking {
+      left: 1035px;
+      top: 114px;
+      position: absolute;
+      color: white;
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 400;
+      line-height: 21px;
+      word-wrap: break-word;
+    }
+    
+    .CardPromoSimple {
+      width: 1200px;
+      height: 184px;
+      position: absolute;
+      margin-top: 200px;
+      left: 140px;
+      justify-content: center;
+      align-items: center;
+      place-items: center;
+    }
+    
+    .Background {
+      width: 1200px;
+      height: 184px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      background: #2273D1;
+      border-radius: 12px;
+    }
+
+    
+
+    
+    .Subscribe {
+      color: white;
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 700;
+      line-height: 21px;
+      word-wrap: break-word;
+      padding-left: 18px;
+      padding-right: 18px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      left: 1030px;
+      top: 72px;
+      position: absolute;
+      background: #3DCBB1;
+      border-radius: 3px;
+      overflow: hidden;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      display: inline-flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 8px;
+      display: inline-flex;
+    }
+    
+    .Search1 {
+      width: 243px;
+      height: 41px;
+      left: 771px;
+      top: 72px;
+      position: absolute;
+    }
+    
+    .Container1 {
+      width: 243px;
+      height: 41px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      background: rgba(249, 249, 249, 0.30);
+      border-radius: 3px;
+    }
+    
+    .EmailAddress {
+      left: 12px;
+      top: 10px;
+      position: absolute;
+      color: rgba(249, 249, 249, 0.60);
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 400;
+      line-height: 21px;
+      word-wrap: break-word;
+    }
+
+
+    .CardOption1 {
+      margin-top: 150px;
+      margin-left: 250px;
+      width: 285px;
+      height: 238px;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 4px;
+      display: inline-flex;
+    }
+    
+    .ThumbnailImage {
+      width: 285px;
+      height: 161px;
+      position: relative;
+
+    }
+    
+    .Thumbnail {
+      width: 285px;
+      height: 161px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+    }
+    
+    .Mask {
+      width: 285px;
+      height: 161px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      background: #C4C4C4;
+      border-radius: 23px;
+    }
+    
+    .Placeholder1 {
+      width: 285px;
+      height: 161px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      border-radius: 23px;
+    }
+    
+    .PersonOutline24px {
+      width: 18px;
+      height: 18px;
+      padding: 3px;
+      left: 255px;
+      top: 131px;
+      position: absolute;
+      border-radius: 23px;
+      justify-content: center;
+      align-items: center;
+      display: inline-flex;
+    }
+    
+    .Stlabel {
+      width: 47px;
+      height: 18px;
+      padding: 4px;
+      left: 10.50px;
+      top: 8px;
+      position: absolute;
+      background: #3DCBB1;
+      border-radius: 23px;
+      overflow: hidden;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      display: inline-flex;
+    }
+    
+    .BestSeller {
+      color: white;
+      font-size: 10px;
+      font-family: Gilroy;
+      font-weight: 500;
+      line-height: 10px;
+      word-wrap: break-word;
+    }
+    
+    .Ndlabel {
+      width: 40px;
+      height: 18px;
+      padding: 4px;
+      left: 66px;
+      top: 8px;
+      position: absolute;
+      background: #A04AE3;
+      border-radius: 23px;
+      overflow: hidden;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      display: inline-flex;
+    }
+    
+    .Off {
+      color: white;
+      font-size: 10px;
+      font-family: Gilroy;
+      font-weight: 500;
+      line-height: 10px;
+      word-wrap: break-word;
+    }
+    
+    .Title {
+      width: 285px;
+      color: black;
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 900;
+      line-height: 21px;
+      word-wrap: break-word;
+      margin-top: 160px;
+      right: 10px;
+    }
+    
+    .Instructor {
+      width: 285px;
+      height: 18px;
+      position: relative;
+    }
+    
+    .InstructorName {
+      width: 263px;
+      left: 22px;
+      top: 0px;
+      position: absolute;
+      color: #3DCBB1;
+      font-size: 14px;
+      font-family: Gilroy;
+      font-weight: 400;
+      line-height: 18px;
+      word-wrap: break-word;
+    }
+    
+    .PersonOutline24px {
+      width: 18px;
+      height: 18px;
+      padding: 3px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      display: inline-flex;
+    }
+    
+    .Price {
+      justify-content: flex-start;
+      align-items: center;
+      gap: 4px;
+      display: inline-flex;
+    }
+    
+    .PriceAmount {
+      color: rgba(27, 27, 27, 0.90);
+      font-size: 20px;
+      font-family: Gilroy;
+      font-weight: 700;
+      line-height: 26px;
+      word-wrap: break-word;
+    }
+    
+    .OriginalPrice {
+      color: rgba(27, 27, 27, 0.60);
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 400;
+      text-decoration: line-through;
+      line-height: 24px;
+      word-wrap: break-word;
+    }
+    
+    .add-to-cart-button {
+      margin-top: 5px;
+      background-color: #FDBE39; 
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .add-to-cart-button:hover {
+      background-color: #F7C600;
+    }
+    
+    .text {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    
+    .fas.fa-shopping-cart {
+      font-size: 18px;
+    }
+    
+
+    .CardOption2 {
+      margin-top: 150px;
+      margin-left: 100px;
+      width: 285px;
+      height: 238px;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 4px;
+      display: inline-flex;
+    }
+    
+    .ThumbnailImage2 {
+      width: 285px;
+      height: 161px;
+      position: relative;
+
+    }
+    
+    .Thumbnail2 {
+      width: 285px;
+      height: 161px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+    }
+    
+    
+    .Placeholder1 {
+      width: 285px;
+      height: 161px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      border-radius: 23px;
+    }
+    
+    .PersonOutline24px {
+      width: 18px;
+      height: 18px;
+      padding: 3px;
+      left: 255px;
+      top: 131px;
+      position: absolute;
+      border-radius: 23px;
+      justify-content: center;
+      align-items: center;
+      display: inline-flex;
+    }
+    
+    .Stlabel {
+      width: 47px;
+      height: 18px;
+      padding: 4px;
+      left: 10.50px;
+      top: 8px;
+      position: absolute;
+      background: #3DCBB1;
+      border-radius: 23px;
+      overflow: hidden;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      display: inline-flex;
+    }
+    
+    .BestSeller {
+      color: white;
+      font-size: 10px;
+      font-family: Gilroy;
+      font-weight: 500;
+      line-height: 10px;
+      word-wrap: break-word;
+    }
+    
+    .Ndlabel {
+      width: 40px;
+      height: 18px;
+      padding: 4px;
+      left: 66px;
+      top: 8px;
+      position: absolute;
+      background: #A04AE3;
+      border-radius: 23px;
+      overflow: hidden;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      display: inline-flex;
+    }
+    
+    .Off {
+      color: white;
+      font-size: 10px;
+      font-family: Gilroy;
+      font-weight: 500;
+      line-height: 10px;
+      word-wrap: break-word;
+    }
+    
+    .Title {
+      width: 285px;
+      color: black;
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 900;
+      line-height: 21px;
+      word-wrap: break-word;
+      margin-top: 160px;
+      right: 10px;
+    }
+    
+    .Instructor {
+      width: 285px;
+      height: 18px;
+      position: relative;
+    }
+    
+    .InstructorName {
+      width: 263px;
+      left: 22px;
+      top: 0px;
+      position: absolute;
+      color: #3DCBB1;
+      font-size: 14px;
+      font-family: Gilroy;
+      font-weight: 400;
+      line-height: 18px;
+      word-wrap: break-word;
+    }
+    
+    .PersonOutline24px {
+      width: 18px;
+      height: 18px;
+      padding: 3px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      display: inline-flex;
+    }
+    
+    .Price {
+      justify-content: flex-start;
+      align-items: center;
+      gap: 4px;
+      display: inline-flex;
+    }
+    
+    .PriceAmount {
+      color: rgba(27, 27, 27, 0.90);
+      font-size: 20px;
+      font-family: Gilroy;
+      font-weight: 700;
+      line-height: 26px;
+      word-wrap: break-word;
+    }
+    
+    .OriginalPrice {
+      color: rgba(27, 27, 27, 0.60);
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 400;
+      text-decoration: line-through;
+      line-height: 24px;
+      word-wrap: break-word;
+    }
+    
+    .add-to-cart-button {
+      margin-top: 5px;
+      background-color: #FDBE39; 
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .add-to-cart-button:hover {
+      background-color: #F7C600;
+    }
+    
+    .text {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    
+    .fas.fa-shopping-cart {
+      font-size: 18px;
+    }
+    
+    .CardOption3 {
+      margin-top: 150px;
+      margin-left: 100px;
+      width: 285px;
+      height: 238px;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 4px;
+      display: inline-flex;
+    }
+    
+    .ThumbnailImage3 {
+      width: 285px;
+      height: 161px;
+      position: relative;
+
+    }
+    
+    .Thumbnail3 {
+      width: 285px;
+      height: 161px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+    }
+    
+    
+    .Placeholder3 {
+      width: 285px;
+      height: 161px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      border-radius: 23px;
+    }
+    
+    .PersonOutline24px {
+      width: 18px;
+      height: 18px;
+      padding: 3px;
+      left: 255px;
+      top: 131px;
+      position: absolute;
+      border-radius: 23px;
+      justify-content: center;
+      align-items: center;
+      display: inline-flex;
+    }
+    
+    .Stlabel {
+      width: 47px;
+      height: 18px;
+      padding: 4px;
+      left: 10.50px;
+      top: 8px;
+      position: absolute;
+      background: #3DCBB1;
+      border-radius: 23px;
+      overflow: hidden;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      display: inline-flex;
+    }
+    
+    .BestSeller {
+      color: white;
+      font-size: 10px;
+      font-family: Gilroy;
+      font-weight: 500;
+      line-height: 10px;
+      word-wrap: break-word;
+    }
+    
+    .Ndlabel {
+      width: 40px;
+      height: 18px;
+      padding: 4px;
+      left: 66px;
+      top: 8px;
+      position: absolute;
+      background: #A04AE3;
+      border-radius: 23px;
+      overflow: hidden;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      display: inline-flex;
+    }
+    
+    .Off {
+      color: white;
+      font-size: 10px;
+      font-family: Gilroy;
+      font-weight: 500;
+      line-height: 10px;
+      word-wrap: break-word;
+    }
+    
+    .Title {
+      width: 285px;
+      color: black;
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 900;
+      line-height: 21px;
+      word-wrap: break-word;
+      margin-top: 160px;
+      right: 10px;
+    }
+    
+    .Instructor {
+      width: 285px;
+      height: 18px;
+      position: relative;
+    }
+    
+    .InstructorName {
+      width: 263px;
+      left: 22px;
+      top: 0px;
+      position: absolute;
+      color: #3DCBB1;
+      font-size: 14px;
+      font-family: Gilroy;
+      font-weight: 400;
+      line-height: 18px;
+      word-wrap: break-word;
+    }
+    
+    .PersonOutline24px {
+      width: 18px;
+      height: 18px;
+      padding: 3px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      display: inline-flex;
+    }
+    
+    .Price {
+      justify-content: flex-start;
+      align-items: center;
+      gap: 4px;
+      display: inline-flex;
+    }
+    
+    .PriceAmount {
+      color: rgba(27, 27, 27, 0.90);
+      font-size: 20px;
+      font-family: Gilroy;
+      font-weight: 700;
+      line-height: 26px;
+      word-wrap: break-word;
+    }
+    
+    .OriginalPrice {
+      color: rgba(27, 27, 27, 0.60);
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 400;
+      text-decoration: line-through;
+      line-height: 24px;
+      word-wrap: break-word;
+    }
+    
+    .add-to-cart-button {
+      margin-top: 5px;
+      background-color: #FDBE39; 
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .add-to-cart-button:hover {
+      background-color: #F7C600;
+    }
+    
+    .text {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    
+    .fas.fa-shopping-cart {
+      font-size: 18px;
+    }
+    .CardOption4 {
+      margin-top: 150px;
+      margin-left: 250px;
+      width: 285px;
+      height: 238px;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 4px;
+      display: inline-flex;
+    }
+    
+    .ThumbnailImage4 {
+      width: 285px;
+      height: 161px;
+      position: relative;
+
+    }
+    
+    .Thumbnail4 {
+      width: 285px;
+      height: 161px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+    }
+    
+    
+    .Placeholder4 {
+      width: 285px;
+      height: 161px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      border-radius: 23px;
+    }
+    
+    .PersonOutline24px {
+      width: 18px;
+      height: 18px;
+      padding: 3px;
+      left: 255px;
+      top: 131px;
+      position: absolute;
+      border-radius: 23px;
+      justify-content: center;
+      align-items: center;
+      display: inline-flex;
+    }
+    
+    .Stlabel {
+      width: 47px;
+      height: 18px;
+      padding: 4px;
+      left: 10.50px;
+      top: 8px;
+      position: absolute;
+      background: #3DCBB1;
+      border-radius: 23px;
+      overflow: hidden;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      display: inline-flex;
+    }
+    
+    .BestSeller {
+      color: white;
+      font-size: 10px;
+      font-family: Gilroy;
+      font-weight: 500;
+      line-height: 10px;
+      word-wrap: break-word;
+    }
+    
+    .Ndlabel {
+      width: 40px;
+      height: 18px;
+      padding: 4px;
+      left: 66px;
+      top: 8px;
+      position: absolute;
+      background: #A04AE3;
+      border-radius: 23px;
+      overflow: hidden;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      display: inline-flex;
+    }
+    
+    .Off {
+      color: white;
+      font-size: 10px;
+      font-family: Gilroy;
+      font-weight: 500;
+      line-height: 10px;
+      word-wrap: break-word;
+    }
+    
+    .Title {
+      width: 285px;
+      color: black;
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 900;
+      line-height: 21px;
+      word-wrap: break-word;
+      margin-top: 160px;
+      right: 10px;
+    }
+    
+    .Instructor {
+      width: 285px;
+      height: 18px;
+      position: relative;
+    }
+    
+    .InstructorName {
+      width: 263px;
+      left: 22px;
+      top: 0px;
+      position: absolute;
+      color: #3DCBB1;
+      font-size: 14px;
+      font-family: Gilroy;
+      font-weight: 400;
+      line-height: 18px;
+      word-wrap: break-word;
+    }
+    
+    .PersonOutline24px {
+      width: 18px;
+      height: 18px;
+      padding: 3px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      display: inline-flex;
+    }
+    
+    .Price {
+      justify-content: flex-start;
+      align-items: center;
+      gap: 4px;
+      display: inline-flex;
+    }
+    
+    .PriceAmount {
+      color: rgba(27, 27, 27, 0.90);
+      font-size: 20px;
+      font-family: Gilroy;
+      font-weight: 700;
+      line-height: 26px;
+      word-wrap: break-word;
+    }
+    
+    .OriginalPrice {
+      color: rgba(27, 27, 27, 0.60);
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 400;
+      text-decoration: line-through;
+      line-height: 24px;
+      word-wrap: break-word;
+    }
+    
+    .add-to-cart-button {
+      margin-top: 5px;
+      background-color: #FDBE39; 
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .add-to-cart-button:hover {
+      background-color: #F7C600;
+    }
+    
+    .text {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    
+    .fas.fa-shopping-cart {
+      font-size: 18px;
+    }
+
+    .CardOption5 {
+      margin-top: 150px;
+      margin-left: 100px;
+      width: 285px;
+      height: 238px;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 4px;
+      display: inline-flex;
+    }
+    
+    .ThumbnailImage5 {
+      width: 285px;
+      height: 161px;
+      position: relative;
+
+    }
+    
+    .Thumbnail5 {
+      width: 285px;
+      height: 161px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+    }
+    
+    
+    .Placeholder5 {
+      width: 285px;
+      height: 161px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      border-radius: 23px;
+    }
+    
+    .PersonOutline24px {
+      width: 18px;
+      height: 18px;
+      padding: 3px;
+      left: 255px;
+      top: 131px;
+      position: absolute;
+      border-radius: 23px;
+      justify-content: center;
+      align-items: center;
+      display: inline-flex;
+    }
+    
+    .Stlabel {
+      width: 47px;
+      height: 18px;
+      padding: 4px;
+      left: 10.50px;
+      top: 8px;
+      position: absolute;
+      background: #3DCBB1;
+      border-radius: 23px;
+      overflow: hidden;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      display: inline-flex;
+    }
+    
+    .BestSeller {
+      color: white;
+      font-size: 10px;
+      font-family: Gilroy;
+      font-weight: 500;
+      line-height: 10px;
+      word-wrap: break-word;
+    }
+    
+    .Ndlabel {
+      width: 40px;
+      height: 18px;
+      padding: 4px;
+      left: 66px;
+      top: 8px;
+      position: absolute;
+      background: #A04AE3;
+      border-radius: 23px;
+      overflow: hidden;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      display: inline-flex;
+    }
+    
+    .Off {
+      color: white;
+      font-size: 10px;
+      font-family: Gilroy;
+      font-weight: 500;
+      line-height: 10px;
+      word-wrap: break-word;
+    }
+    
+    .Title {
+      width: 285px;
+      color: black;
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 900;
+      line-height: 21px;
+      word-wrap: break-word;
+      margin-top: 160px;
+      right: 10px;
+    }
+    
+    .Instructor {
+      width: 285px;
+      height: 18px;
+      position: relative;
+    }
+    
+    .InstructorName {
+      width: 263px;
+      left: 22px;
+      top: 0px;
+      position: absolute;
+      color: #3DCBB1;
+      font-size: 14px;
+      font-family: Gilroy;
+      font-weight: 400;
+      line-height: 18px;
+      word-wrap: break-word;
+    }
+    
+    .PersonOutline24px {
+      width: 18px;
+      height: 18px;
+      padding: 3px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      display: inline-flex;
+    }
+    
+    .Price {
+      justify-content: flex-start;
+      align-items: center;
+      gap: 4px;
+      display: inline-flex;
+    }
+    
+    .PriceAmount {
+      color: rgba(27, 27, 27, 0.90);
+      font-size: 20px;
+      font-family: Gilroy;
+      font-weight: 700;
+      line-height: 26px;
+      word-wrap: break-word;
+    }
+    
+    .OriginalPrice {
+      color: rgba(27, 27, 27, 0.60);
+      font-size: 16px;
+      font-family: Gilroy;
+      font-weight: 400;
+      text-decoration: line-through;
+      line-height: 24px;
+      word-wrap: break-word;
+    }
+    
+    .add-to-cart-button {
+      margin-top: 5px;
+      background-color: #FDBE39; 
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .add-to-cart-button:hover {
+      background-color: #F7C600;
+    }
+    
+    .text {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    
+    .fas.fa-shopping-cart {
+      font-size: 18px;
+    }
+    
+
+    
