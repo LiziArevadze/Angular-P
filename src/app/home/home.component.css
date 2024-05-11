@@ -89,7 +89,7 @@
   }
 
   .BecomeInstructor {
-      left: 1048px;
+      left: 1000px;
       top: 20px;
       position: absolute;
       color: white;
@@ -99,33 +99,19 @@
       line-height: 21px;
       word-wrap: break-word;
   }
+.ShoppingCart{
+    left: 1150px;
+    top: 20px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
 
-  .ShoppingCart24px {
-      width: 24px;
-      height: 24px;
-      padding: 2px;
-      left: 1204px;
-      top: 18px;
-      position: absolute;
-      justify-content: center;
-      align-items: center;
-      display: inline-flex;
-  }
+}
 
-  .Notifications {
-      width: 24px;
-      height: 24px;
-      padding-left: 4.41px;
-      padding-right: 4.41px;
-      padding-top: 2.25px;
-      padding-bottom: 2.25px;
-      left: 1244px;
-      top: 18px;
-      position: absolute;
-      justify-content: center;
-      align-items: center;
-      display: inline-flex;
-  }
 
   .MaskGroup {
       width: 36px;
