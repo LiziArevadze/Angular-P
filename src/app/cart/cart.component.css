@@ -103,12 +103,12 @@
     border-radius: 100px;
 }
 
-    .Cart{
-        margin-top: 80px;
-        margin-left: 150px;
-        font-weight: 500;
-        font-size: xx-large;
-        
+.Cart{
+    margin-top: 80px;
+    margin-left: 150px;
+    font-weight: 500;
+    font-size: xx-large;
+    font-family: gilroy;
     }
   
   .Footer .Container {
