@@ -10,21 +10,20 @@
             </div>
             <div class="Content">
                 <div class="WelcomeText">Join us and get more benefits. We promise to keep your data safely.</div>
-                <div class="Form">
-
+                <form class="Form" (submit)="onSubmit()">
                     <div class="Button Social Facebook">Sign up with Facebook</div>
                     <div class="Button Social Google">Sign up with Google</div>
                     <div class="Button Social Apple">Sign up with Apple</div> 
                     <div class="OrYouCan">or you can</div>     
                     <div class="InputField">
-                        <input type="email" placeholder="Email Address">
+                        <input type="email" placeholder="Email Address" [(ngModel)]="email" name="email" required>
                     </div>
                     <div class="InputField"> 
-                        <input type="password" placeholder="Password">
+                        <input type="password" placeholder="Password" [(ngModel)]="password" name="password" required>
                     </div>
-                    <div class="Button Primary">Create Account</div>
-
-                </div>
+                    <div class="InputMessage" *ngIf="errorMessage" [ngStyle]="{color: 'red', 'margin-bottom.px': 10}">{{ errorMessage }}</div>
+                    <button class="Button Primary" type="submit" style="height: fit-content;">Register</button>
+                </form>
                 <div class="LogInSection">
                     <div class="HaveAccount">Already have an Account?</div>
                     <div class="LogInButton"><a href="/login" class="link-info">Log in</a></div>
@@ -41,6 +40,4 @@
             <div class="Gradient"></div>
         </div>
     </div>
-  </div>
-  
-  
+</div>
