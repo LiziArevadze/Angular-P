@@ -1,33 +1,12 @@
-<div class="NavbarLightLoggedIn">
-        <div class="Hero">
-            <img class="image" src="\assets\image 1.jpg">
-            <div class="LearnSomethingNewEveryday">Learn something new everyday.</div>
-            <div class="BecomeProfessionalsAndReadyToJoinTheWorld">Become professionals and ready to join the world.</div>
-        <div class="mask"></div>
-    </div>
-      
-    <div class="Container"></div>
-    <div class="Logo">
-        <div class="Frame44">
-            <div class="Rectangle5399"></div>
-            <div class="M">m</div>
-        </div>
-        <div class="MycourseIo">MyCourse.io</div>
-    </div>
-    <div class="Browse">Browse</div>
-    <div class="BecomeInstructor">Become Instructor</div>
-    <a class="ShoppingCart" routerLink="/cart">Shopping Cart</a>
-    <div class="MaskGroup">
-        <div class="Container"></div>
-        <img class="GeneralImageSquare" src="\assets\user.png" />
-    </div>
-</div>
+<app-header></app-header>
+
 <div class="SearchColoumn">
     <div class="Container" >
         <div class="Search">Search</div>
-
     </div>
 
+
+    
     <div class="Field">
       <div class="Container"></div>
       <div class="Categories">Categories</div>
@@ -50,195 +29,73 @@
     <div class="Marketing" >Marketing</div>
     <div class="Photography">Photography</div>
   </div>
-
-
-  <div class="CardOption1" >
-    <div class="ThumbnailImage">
-      <div class="Thumbnail">
-        <div class="Mask"></div>
-        <img class="Placeholder1" src="\assets\Placeholder 3.jpg" />
-      </div>
-      <div class="PersonOutline24px"></div>
-      <div class="Stlabel">
-        <div class="BestSeller">Best Seller</div>
-      </div>
-      <div class="Ndlabel">
-        <div class="Off">20% OFF</div>
-      </div>
-      
-    </div>
-    <div class="Title">UI Design for beginners</div>
-    <div class="Instructor">
-      <div class="Instructor">Kitani Studio</div>
-      <div class="PersonOutline24px"></div>
-    </div>
-    <div class="Price">
-      <div class="PriceAmount">$24.92</div>
-      <div class="OriginalPrice">$32.90</div>
-      <button class="add-to-cart-button">
-        <span class="text">Add to Cart</span>
-        <i class="fas fa-shopping-cart"></i>
-      </button>
-    </div>
-  </div>
-
-  <div class="CardOption2">
-    <div class="ThumbnailImage2">
-      <div class="Thumbnail2">
-        <img class="Placeholder2" src="\assets\Placeholder 4.jpg" />
-      </div>
-      <div class="PersonOutline24px"></div>
-      <div class="Stlabel">
-        <div class="BestSeller">Best Seller</div>
-      </div>
-      <div class="Ndlabel">
-        <div class="Off">20% OFF</div>
-      </div>
-      
-    </div>
-    <div class="Title">VUE Javascript Course</div>
-    <div class="Instructor">
-      <div class="Instructor">Kitani Studio</div>
-      <div class="PersonOutline24px"></div>
-    </div>
-    <div class="Price">
-      <div class="PriceAmount">$24.92</div>
-      <div class="OriginalPrice">$32.90</div>
-      <button class="add-to-cart-button">
-        <span class="text">Add to Cart</span>
-        <i class="fas fa-shopping-cart"></i>
-      </button>
-    </div>
-  </div>
-
-  <div class="CardOption3">
-    <div class="ThumbnailImage3">
-      <div class="Thumbnail3">
-        <img class="Placeholder3" src="\assets\Placeholder 5.jpg" />
-      </div>
-      <div class="PersonOutline24px"></div>
-      <div class="Stlabel">
-        <div class="BestSeller">Best Seller</div>
-      </div>
-      <div class="Ndlabel">
-        <div class="Off">20% OFF</div>
-      </div>
-      
-    </div>
-    <div class="Title">Mobile DEV REACT Native</div>
-    <div class="Instructor">
-      <div class="Instructor">Kitani Studio</div>
-      <div class="PersonOutline24px"></div>
-    </div>
-    <div class="Price">
-      <div class="PriceAmount">$24.92</div>
-      <div class="OriginalPrice">$32.90</div>
-      <button class="add-to-cart-button">
-        <span class="text">Add to Cart</span>
-        <i class="fas fa-shopping-cart"></i>
-      </button>
-    </div>
-  </div>    
   
-  <div class="CardOption4">
-    <div class="ThumbnailImage4">
-      <div class="Thumbnail4">
-        <img class="Placeholder4" src="\assets\Placeholder 6.jpg" />
-      </div>
-      <div class="PersonOutline24px"></div>
-      <div class="Stlabel">
-        <div class="BestSeller">Best Seller</div>
-      </div>
-      <div class="Ndlabel">
-        <div class="Off">20% OFF</div>
-      </div>
-      
+  <div class="CardOption1">
+    <div class="ThumbnailImage"></div>
+      <h4 [ngStyle]="{color: message != '' ? 'Green' : 'Red'}">{{ message }}</h4>
     </div>
-    <div class="Title">Website DEV Hero to Zero</div>
-    <div class="Instructor">
-      <div class="Instructor">Kitani Studio</div>
-      <div class="PersonOutline24px"></div>
-    </div>
-    <div class="Price">
-      <div class="PriceAmount">$24.92</div>
-      <div class="OriginalPrice">$32.90</div>
-      <button class="add-to-cart-button">
-        <span class="text">Add to Cart</span>
-        <i class="fas fa-shopping-cart"></i>
-      </button>
-    </div>
-  </div>
+      <div class="CardOption1">
+        <div class="Title">{{ products[0].name }}</div>
+        <div class="PriceAmount">{{ '$' + products[0].price.toFixed(2) }}</div>           
+        <div class="OriginalPrice">$32.90</div>
+        <button class="add-to-cart-button" (click)="addToCart(products[0])">
+          <span class="text">Add to Cart</span>
+        </button>
+      </div>
   
-  
-  <div class="CardOption5">
-    <div class="ThumbnailImage5">
-      <div class="Thumbnail5">
-        <img class="Placeholder5" src="\assets\Placeholder 7.jpg" />
-      </div>
-      <div class="PersonOutline24px"></div>
-      <div class="Stlabel">
-        <div class="BestSeller">Best Seller</div>
-      </div>
-      <div class="Ndlabel">
-        <div class="Off">20% OFF</div>
-      </div>
-      
-    </div>
-    <div class="Title">Learn Programming in 30 days</div>
-    <div class="Instructor">
-      <div class="Instructor">Kitani Studio</div>
-      <div class="PersonOutline24px"></div>
-    </div>
-    <div class="Price">
-      <div class="PriceAmount">$24.92</div>
-      <div class="OriginalPrice">$32.90</div>
-      <button class="add-to-cart-button">
-        <span class="text">Add to Cart</span>
-        <i class="fas fa-shopping-cart"></i>
-      </button>
-    </div>
-  </div>
-  
-  
+      <div class="CardOption2">
+        <div class="ThumbnailImage"></div>
+          <h4 [ngStyle]="{color: message != '' ? 'Green' : 'Red'}">{{ message }}</h4>
+        </div>
+          <div class="CardOption2">
+            <div class="Title">{{ products[1].name }}</div>
+            <div class="PriceAmount">{{ '$' + products[1].price.toFixed(2) }}</div>
+            <div class="OriginalPrice">$32.90</div>
+            <button class="add-to-cart-button" (click)="addToCart(products[1])">
+              <span class="text">Add to Cart</span>
+            </button>
+          </div>      
 
+          <div class="CardOption3">
+            <div class="ThumbnailImage"></div>
+              <h4 [ngStyle]="{color: message != '' ? 'Green' : 'Red'}">{{ message }}</h4>
+            </div>
+              <div class="CardOption3">
+                <div class="Title">{{ products[2].name }}</div>
+                <div class="PriceAmount">{{ '$' + products[2].price.toFixed(2) }}</div>
+                <div class="OriginalPrice">$32.90</div>
+                <button class="add-to-cart-button" (click)="addToCart(products[2])">
+                  <span class="text">Add to Cart</span>
+                </button>
+              </div>
 
+              <div class="CardOption4">
+                <div class="ThumbnailImage"></div>
+                  <h4 [ngStyle]="{color: message != '' ? 'Green' : 'Red'}">{{ message }}</h4>
+                </div>
+                  <div class="CardOption4">
+                    <div class="Title">{{ products[3].name }}</div>
+                    <div class="PriceAmount">{{ '$' + products[3].price.toFixed(2) }}</div>
+                    <div class="OriginalPrice">$32.90</div>
+                    <button class="add-to-cart-button" (click)="addToCart(products[3])">
+                      <span class="text">Add to Cart</span>
+                    </button>
+                  </div>
+                  
+                  <div class="CardOption5">
+                    <div class="ThumbnailImage"></div>
+                      <h4 [ngStyle]="{color: message != '' ? 'Green' : 'Red'}">{{ message }}</h4>
+                    </div>
+                      <div class="CardOption5">
+                        <div class="Title">{{ products[4].name }}</div>
+                        <div class="PriceAmount">{{ '$' + products[4].price.toFixed(2) }}</div>
+                        <div class="OriginalPrice">$32.90</div>
+                        <button class="add-to-cart-button" (click)="addToCart(products[4])">
+                          <span class="text">Add to Cart</span>
+                        </button>
+                      </div>      
+            
+        
+    
 
-  <div class="CardPromoSimple">
-    <div class="Background">
-      <h2 style="color: white; margin-top: 60px; margin-left: 100px; font-weight: 300; font-family: gilroy;">Join and get amazing discount</h2 >
-      <h4 style="color: rgba(255, 255, 255, 0.60); font-weight: 100; margin-left: 100px;  font-family: gilroy;">With our responsive themes and mobile and desktop apps</h4>
-        <div class="Subscribe">Subscribe</div>
-    <div class="Search1">
-      <div class="Container1"></div>
-      <div class="EmailAddress">Email Address</div>
-    </div>
-  </div>
-</div>  
-
-
-
-
-  
-  <div class="Footer">
-    <div class="Container">
-    <div class="Logo">
-      <div class="Frame44">
-        <div class="Rectangle5399"></div>
-        <div class="M">m</div>
-      </div>
-      <div class="MycourseIo">MyCourse.io</div>
-    </div>
-    <div class="CopyrightMycourseIo2024AllRightsReserved">Copyright © MyCourse.io 2024. All Rights Reserved</div>
-    <div class="WebProgramming">Web Programming</div>
-    <div class="MobileProgramming">Mobile Programming</div>
-    <div class="JavaBeginner">Java Beginner</div>
-    <div class="PhpBeginner">PHP Beginner</div>
-    <div class="Rectangle5398"></div>
-    <div class="AdobeIllustrator">Adobe Illustrator</div>
-    <div class="WritingCourse">Writing Course</div>
-    <div class="AdobePhotoshop">Adobe Photoshop</div>
-    <div class="Photography">Photography</div>
-    <div class="DesignLogo">Design Logo</div>
-    <div class="VideoMaking">Video Making</div>
-  </div>
-  
+<app-footer></app-footer>
