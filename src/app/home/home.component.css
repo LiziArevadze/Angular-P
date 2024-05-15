@@ -1,144 +1,31 @@
-  .NavbarLightLoggedIn {
-      width: 100%;
-      height: 60px;
-      position: relative;
-  }
 
-  .Container {
-      width: 100%;
-      object-fit: cover;
-      height: 60px;
-      left: 0px;
-      top: 0px;
-      position: absolute;
-      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
-  }
-
-  .Logo {
-      width: 151.59px;
-      height: 43px;
-      left: 105px;
-      top: 9px;
-      position: absolute;
-      justify-content: center;
-      align-items: center;
-      gap: 6.80px;
-      display: inline-flex;
-  }
-
-  .Frame44 {
-      width: 40px;
-      height: 40px;
-      position: relative;
-      background: #3DCBB1;
-      border-radius: 43px;
-      overflow: hidden;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-start;
-      display: flex;
-  }
-
-  .Rectangle5399 {
-      width: 33.59px;
-      height: 33.59px;
-      background: #3DCBB1;
-      border-radius: 16.80px;
-  }
-
-  .M {
-      color: white;
-      font-size: 38.71px;
-      font-family: Gilroy;
-      font-weight: 900;
-      line-height: 50.80px;
-      word-wrap: break-word;
-  }
-
-  .MycourseIo {
-      color: white;
-      font-size: 17.79px;
-      font-family: Gilroy;
-      font-weight: 800;
-      line-height: 23.34px;
-      word-wrap: break-word;
-  }
-
-
-  .Browse {
-      left: 0px;
-      top: 0px;
-      position: absolute;
-      color: white;
-      font-size: 16px;
-      font-family: Gilroy;
-      font-weight: 400;
-      line-height: 21px;
-      word-wrap: break-word;
-      height: 21px;
-      left: 301px;
-      top: 20px;
-      position: absolute;
-  }
-
-
-  .IconNavigationExpandMore24px {
-      width: 9.78px;
-      height: 5.76px;
-      background: white;
-  }
-
-  .BecomeInstructor {
-      left: 1000px;
-      top: 20px;
-      position: absolute;
-      color: white;
-      font-size: 16px;
-      font-family: Gilroy;
-      font-weight: 400;
-      line-height: 21px;
-      word-wrap: break-word;
-  }
-.ShoppingCart{
-    left: 1150px;
-    top: 20px;
-    position: absolute;
-    color: white;
-    font-size: 16px;
-    font-family: Gilroy;
-    font-weight: 400;
-    line-height: 21px;
-    word-wrap: break-word;
-
+.LearnSomethingNewEveryday{
+  width: 794px; 
+  left: 330px; 
+  top: 270px; 
+  position: absolute; 
+  text-align: center; 
+  color: white; 
+  font-size: 48px; 
+  font-family: Gilroy; 
+  font-weight: 700; 
+  line-height: 62px; 
+  word-wrap: break-word;
+}
+.BecomeProfessionalsAndReadyToJoinTheWorld{
+  width: 590px; 
+  left: 480px; 
+  top: 344px; 
+  justify-content: center;
+  position: absolute; 
+  color: rgba(249, 249, 249, 0.90); 
+  font-size: 24px; 
+  font-family: Gilroy; 
+  font-weight: 400; 
+  line-height: 36px; 
+  word-wrap: break-word;
 }
 
-
-  .MaskGroup {
-      width: 36px;
-      height: 36px;
-      left: 1284px;
-      top: 12px;
-      position: absolute;
-  }
-
-  .MaskGroup .Container {
-      width: 36px;
-      height: 36px;
-      left: 0px;
-      top: 0px;
-      position: absolute;
-      background: #C4C4C4;
-      border-radius: 9999px;
-  }
-
-  .GeneralImageSquare {
-      width: 36px;
-      height: 36px;
-      left: 0px;
-      top: 0px;
-      position: absolute;
-      border-radius: 100px;
-  }
   .SearchColoumn {
       width: 1200px;
       height: 170px;
@@ -354,32 +241,7 @@
       word-wrap: break-word;
       
   }
-  .LearnSomethingNewEveryday{
-      width: 794px; 
-      left: 330px; 
-      top: 270px; 
-      position: absolute; 
-      text-align: center; 
-      color: white; 
-      font-size: 48px; 
-      font-family: Gilroy; 
-      font-weight: 700; 
-      line-height: 62px; 
-      word-wrap: break-word;
-  }
-  .BecomeProfessionalsAndReadyToJoinTheWorld{
-      width: 590px; 
-      left: 480px; 
-      top: 344px; 
-      justify-content: center;
-      position: absolute; 
-      color: rgba(249, 249, 249, 0.90); 
-      font-size: 24px; 
-      font-family: Gilroy; 
-      font-weight: 400; 
-      line-height: 36px; 
-      word-wrap: break-word;
-  }
+  
   .Tab{
       width: 467px; 
       height: 30px; 
@@ -453,267 +315,8 @@
   }
 
     
-    .Footer {
-      width: 100%;
-      height: 302px;
-      position: relative;
-    }
-    
-    .Footer .Container {
-      margin-top: 600px;
-      width: 100%;
-      height: 302px;
-      right: 30px;
-      position: absolute;
-      background: #1B1B1B;
-    }
-    
-    .Footer .Logo {
-      width: 151.59px;
-      height: 43px;
-      left: 105px;
-      top: 40px;
-      position: absolute;
-      justify-content: center;
-      align-items: center;
-      gap: 6.80px;
-      display: inline-flex;
-    }
-    
-    .Footer .Logo .Frame44 {
-      width: 43px;
-      height: 43px;
-      position: relative;
-      background: #3DCBB1;
-      border-radius: 43px;
-      overflow: hidden;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-start;
-      display: flex;
-    }
-    
-    .Footer .Logo .Frame44 .Rectangle5399 {
-      width: 33.59px;
-      height: 33.59px;
-      background: #3DCBB1;
-      border-radius: 16.80px;
-    }
-    
-    .Footer .Logo .Frame44 .M {
-      color: white;
-      font-size: 38.71px;
-      font-family: Gilroy;
-      font-weight: 900;
-      line-height: 50.80px;
-      word-wrap: break-word;
-    }
-    
-    .Footer .Logo .MycourseIo {
-      color: white;
-      font-size: 17.79px;
-      font-family: Gilroy;
-      font-weight: 800;
-      line-height: 23.34px;
-      word-wrap: break-word;
-    }
-    
-    .Footer .CopyrightMycourseIo2024AllRightsReserved {
-      left: 120px;
-      top: 257px;
-      position: absolute;
-      color: rgba(249, 249, 249, 0.60);
-      font-size: 16px;
-      font-family: Gilroy;
-      font-weight: 400;
-      line-height: 21px;
-      word-wrap: break-word;
-    }
-    
-    .Footer .WebProgramming {
-      left: 425px;
-      top: 40px;
-      position: absolute;
-      color: white;
-      font-size: 16px;
-      font-family: Gilroy;
-      font-weight: 400;
-      line-height: 21px;
-      word-wrap: break-word;
-    }
-    
-    .Footer .MobileProgramming {
-      left: 425px;
-      top: 77px;
-      position: absolute;
-      color: white;
-      font-size: 16px;
-      font-family: Gilroy;
-      font-weight: 400;
-      line-height: 21px;
-      word-wrap: break-word;
-    }
-    
-    .Footer .JavaBeginner {
-      left: 425px;
-      top: 114px;
-      position: absolute;
-      color: white;
-      font-size: 16px;
-      font-family: Gilroy;
-      font-weight: 400;
-      line-height: 21px;
-      word-wrap: break-word;
-    }
-    
-    .Footer .PhpBeginner {
-      left: 425px;
-      top: 151px;
-      position: absolute;
-      color: white;
-      font-size: 16px;
-      font-family: Gilroy;
-      font-weight: 400;
-      line-height: 21px;
-      word-wrap: break-word;
-    }
-    
-    .Footer .Rectangle5398 {
-      width: 1200px;
-      height: 1px;
-      left: 120px;
-      top: 232px;
-      position: absolute;
-      opacity: 0.08;
-      background: rgba(249, 249, 249, 0.90);
-    }
-    
-    .Footer .SocialInstagram {
-      width: 24px;
-      height: 24px;
-      left: 1248px;
-      top: 256px;
-      position: absolute;
-      justify-content: center;
-      align-items: center;
-      display: inline-flex;
-    }
-    
-    .Footer .SocialInstagram .Union {
-      width: 24px;
-      height: 24px;
-    }
-    
-    .Footer .SocialFacebook {
-      width: 24px;
-      height: 24px;
-      padding-left: 6px;
-      padding-right: 6px;
-      left: 1296px;
-      top: 256px;
-      position: absolute;
-      justify-content: center;
-      align-items: center;
-      display: inline-flex;
-    }
-    
-    .Footer .SocialFacebook .Vector {
-      width: 12px;
-      height: 24px;
-      background: rgba(249, 249, 249, 0.60);
-    }
-    
-    .Footer .SocialTwitter {
-      width: 24px;
-      height: 24px;
-      padding-top: 2.25px;
-      padding-bottom: 2.25px;
-      left: 1200px;
-      top: 256px;
-      position: absolute;
-      justify-content: center;
-      align-items: center;
-      display: inline-flex;
-    }
-    
-    .Footer .SocialTwitter .Vector {
-      width: 24px;
-      height: 19.50px;
-      background: rgba(249, 249, 249, 0.60);
-    }
-    
-    .Footer .AdobeIllustrator {
-      left: 730px;
-      top: 40px;
-      position: absolute;
-      color: white;
-      font-size: 16px;
-      font-family: Gilroy;
-      font-weight: 400;
-      line-height: 21px;
-      word-wrap: break-word;
-    }
-    
-    .Footer .WritingCourse {
-      left: 1035px;
-      top: 40px;
-      position: absolute;
-      color: white;
-      font-size: 16px;
-      font-family: Gilroy;
-      font-weight: 400;
-      line-height: 21px;
-      word-wrap: break-word;
-    }
-    
-    .Footer .AdobePhotoshop {
-      left: 730px;
-      top: 77px;
-      position: absolute;
-      color: white;
-      font-size: 16px;
-      font-family: Gilroy;
-      font-weight: 400;
-      line-height: 21px;
-      word-wrap: break-word;
-    }
-    
-    .Footer .Photography {
-      left: 1035px;
-      top: 77px;
-      position: absolute;
-      color: white;
-      font-size: 16px;
-      font-family: Gilroy;
-      font-weight: 400;
-      line-height: 21px;
-      word-wrap: break-word;
-    }
-    
-    .Footer .DesignLogo {
-      left: 730px;
-      top: 114px;
-      position: absolute;
-      color: white;
-      font-size: 16px;
-      font-family: Gilroy;
-      font-weight: 400;
-      line-height: 21px;
-      word-wrap: break-word;
-    }
 
-    
-    .Footer .VideoMaking {
-      left: 1035px;
-      top: 114px;
-      position: absolute;
-      color: white;
-      font-size: 16px;
-      font-family: Gilroy;
-      font-weight: 400;
-      line-height: 21px;
-      word-wrap: break-word;
-    }
+   
     
     .CardPromoSimple {
       width: 1200px;
@@ -799,8 +402,8 @@
 
 
     .CardOption1 {
-      margin-top: 150px;
-      margin-left: 250px;
+      margin-top: 100px;
+      margin-left: 0px;
       width: 285px;
       height: 238px;
       flex-direction: column;
@@ -844,19 +447,7 @@
       border-radius: 23px;
     }
     
-    .PersonOutline24px {
-      width: 18px;
-      height: 18px;
-      padding: 3px;
-      left: 255px;
-      top: 131px;
-      position: absolute;
-      border-radius: 23px;
-      justify-content: center;
-      align-items: center;
-      display: inline-flex;
-    }
-    
+
     .Stlabel {
       width: 47px;
       height: 18px;
@@ -919,37 +510,8 @@
       right: 10px;
     }
     
-    .Instructor {
-      width: 285px;
-      height: 18px;
-      position: relative;
-    }
-    
-    .InstructorName {
-      width: 263px;
-      left: 22px;
-      top: 0px;
-      position: absolute;
-      color: #3DCBB1;
-      font-size: 14px;
-      font-family: Gilroy;
-      font-weight: 400;
-      line-height: 18px;
-      word-wrap: break-word;
-    }
-    
-    .PersonOutline24px {
-      width: 18px;
-      height: 18px;
-      padding: 3px;
-      left: 0px;
-      top: 0px;
-      position: absolute;
-      justify-content: center;
-      align-items: center;
-      display: inline-flex;
-    }
-    
+   
+
     .Price {
       justify-content: flex-start;
       align-items: center;
@@ -977,7 +539,7 @@
     }
     
     .add-to-cart-button {
-      margin-top: 5px;
+      margin-bottom: 5px;
       background-color: #FDBE39; 
       color: black;
       padding: 10px 20px;
@@ -986,7 +548,6 @@
       cursor: pointer;
       display: flex;
       align-items: center;
-      gap: 10px;
     }
     
     .add-to-cart-button:hover {
@@ -998,14 +559,11 @@
       font-weight: bold;
     }
     
-    .fas.fa-shopping-cart {
-      font-size: 18px;
-    }
-    
+
 
     .CardOption2 {
-      margin-top: 150px;
-      margin-left: 100px;
+      margin-top: -50px;
+      margin-left: -100px;
       width: 285px;
       height: 238px;
       flex-direction: column;
@@ -1039,19 +597,7 @@
       position: absolute;
       border-radius: 23px;
     }
-    
-    .PersonOutline24px {
-      width: 18px;
-      height: 18px;
-      padding: 3px;
-      left: 255px;
-      top: 131px;
-      position: absolute;
-      border-radius: 23px;
-      justify-content: center;
-      align-items: center;
-      display: inline-flex;
-    }
+
     
     .Stlabel {
       width: 47px;
@@ -1115,36 +661,7 @@
       right: 10px;
     }
     
-    .Instructor {
-      width: 285px;
-      height: 18px;
-      position: relative;
-    }
-    
-    .InstructorName {
-      width: 263px;
-      left: 22px;
-      top: 0px;
-      position: absolute;
-      color: #3DCBB1;
-      font-size: 14px;
-      font-family: Gilroy;
-      font-weight: 400;
-      line-height: 18px;
-      word-wrap: break-word;
-    }
-    
-    .PersonOutline24px {
-      width: 18px;
-      height: 18px;
-      padding: 3px;
-      left: 0px;
-      top: 0px;
-      position: absolute;
-      justify-content: center;
-      align-items: center;
-      display: inline-flex;
-    }
+
     
     .Price {
       justify-content: flex-start;
@@ -1193,14 +710,10 @@
       font-size: 16px;
       font-weight: bold;
     }
-    
-    .fas.fa-shopping-cart {
-      font-size: 18px;
-    }
-    
+
     .CardOption3 {
-      margin-top: 150px;
-      margin-left: 100px;
+      margin-top: 10px;
+      margin-left: -100px;
       width: 285px;
       height: 238px;
       flex-direction: column;
@@ -1234,20 +747,7 @@
       position: absolute;
       border-radius: 23px;
     }
-    
-    .PersonOutline24px {
-      width: 18px;
-      height: 18px;
-      padding: 3px;
-      left: 255px;
-      top: 131px;
-      position: absolute;
-      border-radius: 23px;
-      justify-content: center;
-      align-items: center;
-      display: inline-flex;
-    }
-    
+
     .Stlabel {
       width: 47px;
       height: 18px;
@@ -1310,37 +810,8 @@
       right: 10px;
     }
     
-    .Instructor {
-      width: 285px;
-      height: 18px;
-      position: relative;
-    }
     
-    .InstructorName {
-      width: 263px;
-      left: 22px;
-      top: 0px;
-      position: absolute;
-      color: #3DCBB1;
-      font-size: 14px;
-      font-family: Gilroy;
-      font-weight: 400;
-      line-height: 18px;
-      word-wrap: break-word;
-    }
-    
-    .PersonOutline24px {
-      width: 18px;
-      height: 18px;
-      padding: 3px;
-      left: 0px;
-      top: 0px;
-      position: absolute;
-      justify-content: center;
-      align-items: center;
-      display: inline-flex;
-    }
-    
+
     .Price {
       justify-content: flex-start;
       align-items: center;
@@ -1388,13 +859,10 @@
       font-size: 16px;
       font-weight: bold;
     }
-    
-    .fas.fa-shopping-cart {
-      font-size: 18px;
-    }
+
     .CardOption4 {
-      margin-top: 150px;
-      margin-left: 250px;
+      margin-top: 0px;
+      margin-left: 0px;
       width: 285px;
       height: 238px;
       flex-direction: column;
@@ -1428,19 +896,7 @@
       position: absolute;
       border-radius: 23px;
     }
-    
-    .PersonOutline24px {
-      width: 18px;
-      height: 18px;
-      padding: 3px;
-      left: 255px;
-      top: 131px;
-      position: absolute;
-      border-radius: 23px;
-      justify-content: center;
-      align-items: center;
-      display: inline-flex;
-    }
+
     
     .Stlabel {
       width: 47px;
@@ -1504,36 +960,8 @@
       right: 10px;
     }
     
-    .Instructor {
-      width: 285px;
-      height: 18px;
-      position: relative;
-    }
     
-    .InstructorName {
-      width: 263px;
-      left: 22px;
-      top: 0px;
-      position: absolute;
-      color: #3DCBB1;
-      font-size: 14px;
-      font-family: Gilroy;
-      font-weight: 400;
-      line-height: 18px;
-      word-wrap: break-word;
-    }
-    
-    .PersonOutline24px {
-      width: 18px;
-      height: 18px;
-      padding: 3px;
-      left: 0px;
-      top: 0px;
-      position: absolute;
-      justify-content: center;
-      align-items: center;
-      display: inline-flex;
-    }
+
     
     .Price {
       justify-content: flex-start;
@@ -1583,13 +1011,11 @@
       font-weight: bold;
     }
     
-    .fas.fa-shopping-cart {
-      font-size: 18px;
-    }
+
 
     .CardOption5 {
       margin-top: 150px;
-      margin-left: 100px;
+      margin-left: -100px;
       width: 285px;
       height: 238px;
       flex-direction: column;
@@ -1623,20 +1049,7 @@
       position: absolute;
       border-radius: 23px;
     }
-    
-    .PersonOutline24px {
-      width: 18px;
-      height: 18px;
-      padding: 3px;
-      left: 255px;
-      top: 131px;
-      position: absolute;
-      border-radius: 23px;
-      justify-content: center;
-      align-items: center;
-      display: inline-flex;
-    }
-    
+
     .Stlabel {
       width: 47px;
       height: 18px;
@@ -1699,37 +1112,8 @@
       right: 10px;
     }
     
-    .Instructor {
-      width: 285px;
-      height: 18px;
-      position: relative;
-    }
     
-    .InstructorName {
-      width: 263px;
-      left: 22px;
-      top: 0px;
-      position: absolute;
-      color: #3DCBB1;
-      font-size: 14px;
-      font-family: Gilroy;
-      font-weight: 400;
-      line-height: 18px;
-      word-wrap: break-word;
-    }
-    
-    .PersonOutline24px {
-      width: 18px;
-      height: 18px;
-      padding: 3px;
-      left: 0px;
-      top: 0px;
-      position: absolute;
-      justify-content: center;
-      align-items: center;
-      display: inline-flex;
-    }
-    
+
     .Price {
       justify-content: flex-start;
       align-items: center;
@@ -1778,9 +1162,7 @@
       font-weight: bold;
     }
     
-    .fas.fa-shopping-cart {
-      font-size: 18px;
-    }
+      
     
 
     
