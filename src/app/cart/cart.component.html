@@ -13,7 +13,40 @@
 </div>
 <div class="Cart">Shopping Cart</div>
 
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <ul class="list-group">
+        <div class="list-group-item" *ngFor="let item of cartItems">
+          <div class="row">
+            <div class="col-3">
+            </div>
+            <div class="col-6">
+              <span>{{ item.name }}</span>
+            </div>
+            <div class="col-2 text-right">
+              <span class="price">{{ '$' + item.price.toFixed(2) }}</span>
+            </div>
+            <div class="col-1">
+              <button (click)="removeItem(item)" class="btn btn-danger btn-sm">Remove</button>
+            </div>
+          </div>
+        </div>
+      </ul>
+      <div *ngIf="cartItems.length === 0" class="text-left">
+        Your cart is empty.
+      </div>
+      <div *ngIf="cartItems.length > 0" class="text-right">
+        <div class="TotalPrice">Total Price: {{ getTotalPrice() | currency }}</div>
+      </div>
+    </div>
+  </div>
 </div>
+
+
+
 
     <div class="Footer">
         <div class="Container">
