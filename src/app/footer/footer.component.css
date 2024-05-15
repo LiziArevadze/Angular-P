@@ -1,0 +1,107 @@
+.footer {
+  background-color: #1B1B1B;
+  color: #fff;
+  padding: 50px 0;
+  margin-top: 700px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.footer-logo img {
+  width: 150px;
+  height: auto;
+}
+
+.footer-logo p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.footer-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+.Logo {
+  width: 151.59px;
+  height: 43px;
+  left: 105px;
+  top: 9px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 6.80px;
+  display: inline-flex;
+}
+
+.Frame44 {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  background: #3DCBB1;
+  border-radius: 43px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+
+.M {
+  color: white;
+  font-size: 38.71px;
+  font-family: Gilroy;
+  font-weight: 900;
+  line-height: 50.80px;
+  word-wrap: break-word;
+}
+
+.MycourseIo {
+  color: white;
+  font-size: 17.79px;
+  font-family: Gilroy;
+  font-weight: 800;
+  line-height: 23.34px;
+  word-wrap: break-word;
+  margin-top: 10px;
+}
+
+
+.copyright {
+  left: 120px;
+  position: absolute;
+  color: rgba(249, 249, 249, 0.60);
+  font-size: 16px;
+  font-family: Gilroy;
+  font-weight: 400;
+  line-height: 21px;
+  word-wrap: break-word;
+  margin-top: 10px;
+}
