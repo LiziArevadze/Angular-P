@@ -366,3 +366,28 @@
     line-height: 21px;
     word-wrap: break-word;
   }
+  .text-left{
+    font-weight: 300;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 150px;
+  }
+  .TotalPrice{
+    font-weight: 300;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 150px;
+  }
+  .col-6{
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: xx-large;
+    font-family: gilroy;
+    font-style: gilroy;
+    font-weight: 300;
+    font-size: larger;
+    margin-left: 150px;
+  }
+  .price{
+    margin-left: 100px;
+  }
