@@ -380,14 +380,17 @@
   }
   .col-6{
     margin-top: 20px;
-    margin-right: 10px;
+    margin-left: 110px;
     font-size: xx-large;
     font-family: gilroy;
     font-style: gilroy;
     font-weight: 300;
     font-size: larger;
-    margin-left: 150px;
   }
   .price{
-    margin-left: 100px;
+    margin-left: 110px;
+  }
+  .RemoveBtn{
+    margin-left: 110px;
+    margin-top: 10px;
   }
