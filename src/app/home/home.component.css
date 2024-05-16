@@ -402,8 +402,8 @@
 
 
     .CardOption1 {
-      margin-top: 100px;
-      margin-left: 0px;
+      margin-top: 200px;
+      margin-right: 10px;
       width: 285px;
       height: 238px;
       flex-direction: column;
@@ -441,14 +441,17 @@
     .Placeholder1 {
       width: 285px;
       height: 161px;
-      left: 0px;
-      top: 0px;
+      margin-left: 00px;
+      margin-top: -20px;
       position: absolute;
       border-radius: 23px;
     }
     
 
+    
     .Stlabel {
+      margin-left: 300px;
+      margin-top: 1000px;
       width: 47px;
       height: 18px;
       padding: 4px;
@@ -474,6 +477,8 @@
     }
     
     .Ndlabel {
+      margin-left: 300px;
+      margin-top: 1000px;
       width: 40px;
       height: 18px;
       padding: 4px;
@@ -589,65 +594,16 @@
     }
     
     
-    .Placeholder1 {
+    .Placeholder2 {
       width: 285px;
       height: 161px;
-      left: 0px;
-      top: 0px;
+      margin-left: 0px;
+      margin-top: -20px;
       position: absolute;
       border-radius: 23px;
     }
 
     
-    .Stlabel {
-      width: 47px;
-      height: 18px;
-      padding: 4px;
-      left: 10.50px;
-      top: 8px;
-      position: absolute;
-      background: #3DCBB1;
-      border-radius: 23px;
-      overflow: hidden;
-      justify-content: flex-start;
-      align-items: center;
-      gap: 10px;
-      display: inline-flex;
-    }
-    
-    .BestSeller {
-      color: white;
-      font-size: 10px;
-      font-family: Gilroy;
-      font-weight: 500;
-      line-height: 10px;
-      word-wrap: break-word;
-    }
-    
-    .Ndlabel {
-      width: 40px;
-      height: 18px;
-      padding: 4px;
-      left: 66px;
-      top: 8px;
-      position: absolute;
-      background: #A04AE3;
-      border-radius: 23px;
-      overflow: hidden;
-      justify-content: flex-start;
-      align-items: center;
-      gap: 10px;
-      display: inline-flex;
-    }
-    
-    .Off {
-      color: white;
-      font-size: 10px;
-      font-family: Gilroy;
-      font-weight: 500;
-      line-height: 10px;
-      word-wrap: break-word;
-    }
     
     .Title {
       width: 285px;
@@ -742,61 +698,12 @@
     .Placeholder3 {
       width: 285px;
       height: 161px;
-      left: 0px;
-      top: 0px;
+      margin-left: 0px;
+      margin-top: -20px;
       position: absolute;
       border-radius: 23px;
     }
 
-    .Stlabel {
-      width: 47px;
-      height: 18px;
-      padding: 4px;
-      left: 10.50px;
-      top: 8px;
-      position: absolute;
-      background: #3DCBB1;
-      border-radius: 23px;
-      overflow: hidden;
-      justify-content: flex-start;
-      align-items: center;
-      gap: 10px;
-      display: inline-flex;
-    }
-    
-    .BestSeller {
-      color: white;
-      font-size: 10px;
-      font-family: Gilroy;
-      font-weight: 500;
-      line-height: 10px;
-      word-wrap: break-word;
-    }
-    
-    .Ndlabel {
-      width: 40px;
-      height: 18px;
-      padding: 4px;
-      left: 66px;
-      top: 8px;
-      position: absolute;
-      background: #A04AE3;
-      border-radius: 23px;
-      overflow: hidden;
-      justify-content: flex-start;
-      align-items: center;
-      gap: 10px;
-      display: inline-flex;
-    }
-    
-    .Off {
-      color: white;
-      font-size: 10px;
-      font-family: Gilroy;
-      font-weight: 500;
-      line-height: 10px;
-      word-wrap: break-word;
-    }
     
     .Title {
       width: 285px;
@@ -891,62 +798,12 @@
     .Placeholder4 {
       width: 285px;
       height: 161px;
-      left: 0px;
-      top: 0px;
+      margin-left: 0px;
+      margin-top: -20px;
       position: absolute;
       border-radius: 23px;
     }
 
-    
-    .Stlabel {
-      width: 47px;
-      height: 18px;
-      padding: 4px;
-      left: 10.50px;
-      top: 8px;
-      position: absolute;
-      background: #3DCBB1;
-      border-radius: 23px;
-      overflow: hidden;
-      justify-content: flex-start;
-      align-items: center;
-      gap: 10px;
-      display: inline-flex;
-    }
-    
-    .BestSeller {
-      color: white;
-      font-size: 10px;
-      font-family: Gilroy;
-      font-weight: 500;
-      line-height: 10px;
-      word-wrap: break-word;
-    }
-    
-    .Ndlabel {
-      width: 40px;
-      height: 18px;
-      padding: 4px;
-      left: 66px;
-      top: 8px;
-      position: absolute;
-      background: #A04AE3;
-      border-radius: 23px;
-      overflow: hidden;
-      justify-content: flex-start;
-      align-items: center;
-      gap: 10px;
-      display: inline-flex;
-    }
-    
-    .Off {
-      color: white;
-      font-size: 10px;
-      font-family: Gilroy;
-      font-weight: 500;
-      line-height: 10px;
-      word-wrap: break-word;
-    }
     
     .Title {
       width: 285px;
@@ -1044,61 +901,13 @@
     .Placeholder5 {
       width: 285px;
       height: 161px;
-      left: 0px;
-      top: 0px;
+      margin-left: 0px;
+      margin-top: -20px;
       position: absolute;
       border-radius: 23px;
     }
 
-    .Stlabel {
-      width: 47px;
-      height: 18px;
-      padding: 4px;
-      left: 10.50px;
-      top: 8px;
-      position: absolute;
-      background: #3DCBB1;
-      border-radius: 23px;
-      overflow: hidden;
-      justify-content: flex-start;
-      align-items: center;
-      gap: 10px;
-      display: inline-flex;
-    }
     
-    .BestSeller {
-      color: white;
-      font-size: 10px;
-      font-family: Gilroy;
-      font-weight: 500;
-      line-height: 10px;
-      word-wrap: break-word;
-    }
-    
-    .Ndlabel {
-      width: 40px;
-      height: 18px;
-      padding: 4px;
-      left: 66px;
-      top: 8px;
-      position: absolute;
-      background: #A04AE3;
-      border-radius: 23px;
-      overflow: hidden;
-      justify-content: flex-start;
-      align-items: center;
-      gap: 10px;
-      display: inline-flex;
-    }
-    
-    .Off {
-      color: white;
-      font-size: 10px;
-      font-family: Gilroy;
-      font-weight: 500;
-      line-height: 10px;
-      word-wrap: break-word;
-    }
     
     .Title {
       width: 285px;
@@ -1165,4 +974,4 @@
       
     
 
-    
+
