@@ -41,12 +41,19 @@
         <button class="add-to-cart-button" (click)="addToCart(products[0])">
           <span class="text">Add to Cart</span>
         </button>
+        <img class="Placeholder1" src="\assets\Placeholder 3.jpg" />
+      </div>
+      <div class="Stlabel">
+        <div class="BestSeller">Best Seller</div>
+      </div>
+      <div class="Ndlabel">
+        <div class="Off">20% OFF</div>
+
       </div>
   
       <div class="CardOption2">
         <div class="ThumbnailImage"></div>
-          <h4 [ngStyle]="{color: message != '' ? 'Green' : 'Red'}">{{ message }}</h4>
-        </div>
+          </div>
           <div class="CardOption2">
             <div class="Title">{{ products[1].name }}</div>
             <div class="PriceAmount">{{ '$' + products[1].price.toFixed(2) }}</div>
@@ -54,11 +61,12 @@
             <button class="add-to-cart-button" (click)="addToCart(products[1])">
               <span class="text">Add to Cart</span>
             </button>
-          </div>      
+            <img class="Placeholder2" src="\assets\Placeholder 4.jpg" />
+          </div>
+     
 
           <div class="CardOption3">
             <div class="ThumbnailImage"></div>
-              <h4 [ngStyle]="{color: message != '' ? 'Green' : 'Red'}">{{ message }}</h4>
             </div>
               <div class="CardOption3">
                 <div class="Title">{{ products[2].name }}</div>
@@ -67,11 +75,11 @@
                 <button class="add-to-cart-button" (click)="addToCart(products[2])">
                   <span class="text">Add to Cart</span>
                 </button>
-              </div>
+                <img class="Placeholder3" src="\assets\Placeholder 5.jpg" />
+          </div>
 
               <div class="CardOption4">
                 <div class="ThumbnailImage"></div>
-                  <h4 [ngStyle]="{color: message != '' ? 'Green' : 'Red'}">{{ message }}</h4>
                 </div>
                   <div class="CardOption4">
                     <div class="Title">{{ products[3].name }}</div>
@@ -80,11 +88,12 @@
                     <button class="add-to-cart-button" (click)="addToCart(products[3])">
                       <span class="text">Add to Cart</span>
                     </button>
-                  </div>
+                    <img class="Placeholder4" src="\assets\Placeholder 6.jpg" />
+          </div>
+
                   
                   <div class="CardOption5">
                     <div class="ThumbnailImage"></div>
-                      <h4 [ngStyle]="{color: message != '' ? 'Green' : 'Red'}">{{ message }}</h4>
                     </div>
                       <div class="CardOption5">
                         <div class="Title">{{ products[4].name }}</div>
@@ -93,7 +102,9 @@
                         <button class="add-to-cart-button" (click)="addToCart(products[4])">
                           <span class="text">Add to Cart</span>
                         </button>
-                      </div>      
+                        <img class="Placeholder5" src="\assets\Placeholder 7.jpg" />
+          </div>
+    
             
         
     
